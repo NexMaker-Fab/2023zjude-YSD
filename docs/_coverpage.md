@@ -1,6 +1,6 @@
 
 <div>
-  <img src="https://github.com/erkoww/YSD_img/blob/main/img/GKW.png?raw=true" width = "500"/>
+  <img src="(https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/logo.png)?raw=true" width = "500"/>
 </div> 
 
 # Welcome to Team YSD! 
