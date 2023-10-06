@@ -1,5 +1,5 @@
 <div align= 'center'>
-  <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/logo.jpg?raw=true" width = "200"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/logo.png?raw=true" width = "200"/>
 </div>
 
 * TEAM INTRODUCE
