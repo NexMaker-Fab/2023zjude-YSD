@@ -18,7 +18,7 @@
 # Module composition
 **![$T0GN`LMNBC9{5M}`3C8 GE](https://github.com/NexMaker-Fab/2023zjude-YSD/assets/146055418/befc8a0b-e996-42c6-b806-b4eb97924fb0) Photos with a recording function module**
 
-**![R@SGMDL7Z3M$U7454`4PV`8](https://github.com/NexMaker-Fab/2023zjude-YSD/assets/146055418/077bf755-1c1f-4bb8-8596-7c330a859a52)Different scents or fragrances**
+**![R@SGMDL7Z3M$U7454`4PV`8](https://github.com/NexMaker-Fab/2023zjude-YSD/assets/146055418/077bf755-1c1f-4bb8-8596-7c330a859a52) Different scents or fragrances**
 
-**![9X$$@XRA173C)Y0QKUB9T95](https://github.com/NexMaker-Fab/2023zjude-YSD/assets/146055418/1d6950c9-0d84-45b6-adc1-eed158b21109)Recording player**
+**![9X$$@XRA173CY0QKUB9T95](https://github.com/NexMaker-Fab/2023zjude-YSD/assets/146055418/1d6950c9-0d84-45b6-adc1-eed158b21109) Recording player**
 
