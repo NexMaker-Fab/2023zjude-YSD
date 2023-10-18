@@ -33,19 +33,17 @@
 
 - Third, wait for qualification approval.
 
-- Download Fusion 360 desktop edition
+- Fourth, download Fusion 360 desktop edition.
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-18%20161811.png" width = "500"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-18%20161811.png" width = "800"/>
 </div>
 
-- Use your Autodesk ID to log in Fusion 360
+- Fifth, use your Autodesk ID to log in Fusion 360.
 
-- Invite your team members to join
+- Sixth, invite your team members to join.
 
-After being invited to your class by your teacher, you can also invited your team member to join together.
-
-- Start online collaboration
+- Seventh, start online collaboration.
 
 
 ## 2 Steps
