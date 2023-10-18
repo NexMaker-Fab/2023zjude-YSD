@@ -20,5 +20,5 @@
 
 **![R@SGMDL7Z3M$U7454`4PV`8](https://github.com/NexMaker-Fab/2023zjude-YSD/assets/146055418/077bf755-1c1f-4bb8-8596-7c330a859a52)Different scents or fragrances**
 
-**![)_5VT22`8V5U9IQZ77(~_LP](https://github.com/NexMaker-Fab/2023zjude-YSD/assets/146055418/fb822622-7608-47fa-94e9-4b20d23d8780)Recording player**
+**![)_5VT22`8V5U9IQZ77(~_LP](https://github.com/NexMaker-Fab/2023zjude-YSD/assets/146055418/46a347fd-c658-4144-a70c-1ac4855903be)Recording player**
 
