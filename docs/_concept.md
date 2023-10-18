@@ -1,4 +1,4 @@
-![$T0GN`LMNBC9{5M}`3C8 GE](https://github.com/NexMaker-Fab/2023zjude-YSD/assets/146055418/3837c429-f373-43c1-9d38-1ae62b893905)# Source of  inspiration
+# Source of  inspiration
 
 **Beautiful memories are precious emotional connection points in people's lives. They can be memories of loved ones, friends, romantic moments, or special occasions. By recalling these beautiful moments, we can revisit the emotions related to our interpersonal relationships, strengthen family and friendship bonds, and deepen romantic love.**
 
