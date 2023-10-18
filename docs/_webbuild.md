@@ -49,7 +49,7 @@ We used GitHub+Docsify to build the site. Docsify is a simple document site gene
 
 >`docsify init ./docs`
 
-!> <font color="#99CCFF">Note</font> the problem we encountered (If you are a Mac user, please skip this step)
+!> Note!!! the problem we encountered (If you are a Mac user, please skip this step)
 
 An error occurred during initialization. Procedure.
 
