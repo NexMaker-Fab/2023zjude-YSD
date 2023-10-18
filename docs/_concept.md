@@ -1,4 +1,4 @@
-# Source of  inspiration
+![$T0GN`LMNBC9{5M}`3C8 GE](https://github.com/NexMaker-Fab/2023zjude-YSD/assets/146055418/3837c429-f373-43c1-9d38-1ae62b893905)# Source of  inspiration
 
 **Beautiful memories are precious emotional connection points in people's lives. They can be memories of loved ones, friends, romantic moments, or special occasions. By recalling these beautiful moments, we can revisit the emotions related to our interpersonal relationships, strengthen family and friendship bonds, and deepen romantic love.**
 
@@ -16,9 +16,9 @@
 **The integration of photos, recordings, and scents offers a more comprehensive recollection experience, enabling individuals to deeply connect with those precious moments. The design of the recording player, resembling a vinyl record, adds a nostalgic ambiance, allowing people to immerse themselves in reliving the joyful times of the past. This product design holds the potential to become a cherished memory keepsake, helping people better preserve and share their treasured moments.**
 
 # Module composition
-**![Alt text]($T0GN%60LMNBC9%7B5M%7D%603C8%5DGE.png)  Photos with a recording function module**
+**![$T0GN`LMNBC9{5M}`3C8 GE](https://github.com/NexMaker-Fab/2023zjude-YSD/assets/146055418/befc8a0b-e996-42c6-b806-b4eb97924fb0) Photos with a recording function module**
 
-**![Alt text](R@SGMDL7Z3M$U7454%604PV%608.png)  Different scents or fragrances**
+**![R@SGMDL7Z3M$U7454`4PV`8](https://github.com/NexMaker-Fab/2023zjude-YSD/assets/146055418/077bf755-1c1f-4bb8-8596-7c330a859a52)Different scents or fragrances**
 
-**![Alt text](<)_5VT22`8V5U9IQZ77(~_LP.png>)  Recording player**
+**![)_5VT22`8V5U9IQZ77(~_LP](https://github.com/NexMaker-Fab/2023zjude-YSD/assets/146055418/fb822622-7608-47fa-94e9-4b20d23d8780)Recording player**
 
