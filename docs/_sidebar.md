@@ -12,5 +12,6 @@
 * COURSE PRACTICE
   * Project Management
     * [Web Page Construction](_webbuild.md)
+    * [Fusion 360](_fusion360.md)
 * FINAL PROJECT
   
