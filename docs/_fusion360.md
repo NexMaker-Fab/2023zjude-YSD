@@ -1,4 +1,5 @@
-# Fusion 360
+# <font color="#99CCFF">Fusion 360</font>
+
 ## 1 Introduction to Fusion 360
 
 <div align="center">
