@@ -1,5 +1,5 @@
-# 冯于娟
-**大家好哇！我是冯于娟，大家可以叫我小蓝姐姐！**
+# Feng Yujuan
+**Hello everyone！My name is Feng Yujuan. You can call me 小蓝姐姐！**
 <div>
   <img src="https://github.com/erkoww/YSD_img/blob/main/img/FYJ.png?raw=true" width = "500"/>
 </div>
