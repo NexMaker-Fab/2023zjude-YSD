@@ -21,7 +21,7 @@ We used GitHub+Docsify to build the site. Docsify is a simple document site gene
 - Deploy the team's web page on GitHub, where we get a blank web page and a link to it.
 
 <div align= 'center'>
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E7%BB%88%E7%AB%AF.PNG" width = "1000"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E9%82%80%E8%AF%B7.png" width = "1000"/>
 </div>
 
 <div align= 'center'>
@@ -41,16 +41,16 @@ We used GitHub+Docsify to build the site. Docsify is a simple document site gene
 #### ② Edit web pages with Docsify
 - Make sure you install nodejs before installing Docsify.
 
--Open Visual Studio Code, create a new terminal, and enter the following code in the terminal.
+- Open Visual Studio Code, create a new terminal, and enter the following code in the terminal.
 <div align= 'center'>
-  <img src="https://raw.githubusercontent.com/bobwu0214/imageuploadservice/main/img/202210122216237.png" width = "500"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E7%BB%88%E7%AB%AF.PNG" width = "1000"/>
 </div>
 
 >`npm i docsify-cli -g`
 
 - Determine the location, and then initialize the environment.
 - <div align= 'center'>
-  <img src="https://raw.githubusercontent.com/bobwu0214/imageuploadservice/main/img/202210122216237.png" width = "500"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%88%9D%E5%A7%8B%E5%8C%96.PNG" width = "1000"/>
 </div>
 
 >`docsify init ./docs`
@@ -139,12 +139,58 @@ Then you can initialize it successfully.
 - In order to reduce the space occupied by Web files, we use GitHub+PicGo to upload files to our gallery repository and reference the image address directly in the Web file.
   
 - Create an image repository and generate a key for PicGo.
-
-- The key can be generated via GitHub.
+- Go to the GitHub homepage, and click on the profile picture in the top right corner.
 
 <div align= 'center'>
-  <img src="https://github.com/erkoww/YSD_img/blob/main/img/20231006205307.png?raw=true" width = "1000"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E8%BF%9B%E5%85%A5GitHub%E4%B8%BB%E9%A1%B5.PNG" width = "1000"/>
 </div>
+
+- Click on "Settings."
+
+ <div align= 'center'>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E7%82%B9%E5%87%BB%E8%AE%BE%E7%BD%AE.PNG" width = "1000"/>
+</div> 
+
+- Click on "Developer settings"
+
+ <div align= 'center'>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/develop%20setting.PNG" width = "1000"/>
+</div> 
+
+- Generate a key and choose the classic type.
+
+ <div align= 'center'>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E7%94%9F%E6%88%90%E4%B8%AA%E4%BA%BA%E5%AF%86%E9%92%A5.PNG" width = "1000"/>
+</div> 
+
+<div align= 'center'>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E7%94%9F%E6%88%90%E5%AF%86%E9%92%A52.PNG" width = "1000"/>
+</div> 
+
+- Choose a name and select "no expiration," and make sure to check the "repo" option.
+
+<div align= 'center'>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%8B%BE%E7%94%BBrepo.PNG" width = "1000"/>
+</div> 
+
+- Click "Generate" to obtain the key.
+
+<div align= 'center'>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%A4%8D%E5%88%B6%E5%AF%86%E9%92%A5.PNG" width = "1000"/>
+</div> 
+
+- Run Picgo and configure the GitHub image hosting settings.
+
+<div align= 'center'>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E6%89%93%E5%BC%80GitHub%E5%9B%BE%E5%BA%8A%E8%AE%BE%E7%BD%AE.PNG" width = "1000"/>
+</div> 
+
+- Paste the token and customize the domain name. Here's a sample domain name format:https://cdn.jsdelivr.net/gh/username/Repositoryname.@main
+- You only need to replace the username and repository name with your own.
+
+<div align= 'center'>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E7%B2%98%E8%B4%B4%E5%9F%9F%E5%90%8D%EF%BC%8C%E5%B9%B6%E8%AE%BE%E7%BD%AE%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D.PNG" width = "1000"/>
+</div> 
 
 - To insert an image in an md. document, get the image address that you want to reference in the image repository.
 
