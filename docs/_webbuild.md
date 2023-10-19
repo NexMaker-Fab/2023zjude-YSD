@@ -21,7 +21,7 @@ We used GitHub+Docsify to build the site. Docsify is a simple document site gene
 - Deploy the team's web page on GitHub, where we get a blank web page and a link to it.
 
 <div align= 'center'>
-  <img src="https://github.com/erkoww/YSD_img/blob/main/img/%E9%82%80%E8%AF%B7.png?raw=true" width = "1000"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E7%BB%88%E7%AB%AF.PNG" width = "1000"/>
 </div>
 
 <div align= 'center'>
@@ -41,11 +41,17 @@ We used GitHub+Docsify to build the site. Docsify is a simple document site gene
 #### ② Edit web pages with Docsify
 - Make sure you install nodejs before installing Docsify.
 
-- Install Docsify on the terminal using command line statements.
+-Open Visual Studio Code, create a new terminal, and enter the following code in the terminal.
+<div align= 'center'>
+  <img src="https://raw.githubusercontent.com/bobwu0214/imageuploadservice/main/img/202210122216237.png" width = "500"/>
+</div>
 
 >`npm i docsify-cli -g`
 
 - Determine the location, and then initialize the environment.
+- <div align= 'center'>
+  <img src="https://raw.githubusercontent.com/bobwu0214/imageuploadservice/main/img/202210122216237.png" width = "500"/>
+</div>
 
 >`docsify init ./docs`
 
