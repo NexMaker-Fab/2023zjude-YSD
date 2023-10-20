@@ -92,14 +92,16 @@
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/1.PNG" width = "800"/>
 </div>
 
-- 
+- The first completed part should be created by clicking "Create Component from Part," and for subsequent modeling, you can either choose to click "Create Component from Part" or directly select "New Component" under "Assemble."
 
 <div align="center">
-  <img src="" width = "800"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/2.PNG" width = "800"/>
 </div>
 
+- Next, use the extrusion command to sequentially create parts such as the base, slider, groove, and so on.
+
 <div align="center">
-  <img src="" width = "800"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/3.PNG" width = "800"/>
 </div>
 
 <div align="center">
