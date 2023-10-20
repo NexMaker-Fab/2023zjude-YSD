@@ -81,6 +81,31 @@
 
 ### 2.2 Modeling process
 #### 2.2.1 Modeling Process (with Parameterization)
+
+- Create a new group folder in "zju2023" .
+
+- Click on "Sketch," select a plane, and start sketching.
+
+!> For better modeling, here are some small tips: Hold the middle mouse button to move parts, and hold Shift while using the middle mouse button to rotate the view.
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/1.PNG" width = "800"/>
+</div>
+
+- 
+
+<div align="center">
+  <img src="" width = "800"/>
+</div>
+
+<div align="center">
+  <img src="" width = "800"/>
+</div>
+
+<div align="center">
+  <img src="" width = "800"/>
+</div>
+
 #### 2.2.2 Equipment and Motion Simulation (GIF)
 #### 2.2.3 Engineering Drawing
 
