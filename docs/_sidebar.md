@@ -12,7 +12,8 @@
 * COURSE PRACTICE
   * Project Management
     * [Web Page Construction](_webbuild.md)
-  * [Fusion 360](_fusion360.md)
+  * CAD
+    * [Fusion 360](_fusion360.md)
   * Arduino
     * [Arduino Basic](_arduino_basic.md)
 * FINAL PROJECT
