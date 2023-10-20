@@ -6,7 +6,20 @@
 - LED
 
 ### 1.2 Schematic circuit diagram
-
+- Connect the relevant components according to the wiring diagram.
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E6%B5%81%E6%B0%B4%E7%81%AF.png" width=400/>
+</div>
+<br>
+- Write code in the Arduino IDE.
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/arduino%E6%88%AA%E5%9B%BE.png" width=400/>
+</div>
+<br>
+- 将代码写入Arduino板中
+<br>
+- Debug code, run and test
+<br>
 ### 1.3 Code
 ```C++
 // water light program
