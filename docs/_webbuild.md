@@ -218,6 +218,26 @@ Then you can initialize it successfully.
 
 ***
 
+### 3 Write the documents with markdown
+#### ① Title
+- The `#` sign can be used to indicate 1-6 levels of headings, with one `#` sign for a first level heading, two `#` signs for a second level heading, and so on.
+
+```HTML
+# This is a first-level title.
+## This is a second-level title.
+### This is a third-level title.
+#### This is a four-level title.
+##### This is a five-level title.
+###### This is a six-level title.
+```
+- The effect is as follows：
+
+<div align= 'center'>
+  <img src="https://github.com/erkoww/YSD_img/blob/main/img/%E5%A4%8D%E5%88%B6%E9%93%BE%E6%8E%A5.png?raw=true" width = "1000"/>
+</div>
+
+***
+
 ### Reference
 [过程教学](https://www.nexmaker.com/doc/1projectmanage/github&docsify.html)
 
