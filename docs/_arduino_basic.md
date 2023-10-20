@@ -3,7 +3,11 @@
 ## 1 Water Light Program
 
 ### 1.1 List of components
-- LED
+- Arduino UNO * 1
+- Breadboard * 1
+- LED * 6
+- 1kΩ resistance * 6
+- Some Dupont thread 
 
 ### 1.2 Schematic circuit diagram
 - Connect the relevant components according to the wiring diagram.
