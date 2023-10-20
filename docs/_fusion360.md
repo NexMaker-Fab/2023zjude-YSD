@@ -44,9 +44,36 @@
 - Sixth, invite your team members to join.
 
 - Seventh, start online collaboration.
-
+  
+***
 
 ## 2 Steps
+### 2.1 Install the plugin
+
+- Open the [Fusion 360 App Store](https://apps.autodesk.com/FUSION/zh-CN/Home/Index), select the desired plugin.
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/20231019190202.png" width = "800"/>
+</div>
+
+- Download it.
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/20231019180229.png" width = "800"/>
+</div>
+
+- Run Fusion 360, follow the steps provided in the image prompts to install the plugin.
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-19%20182808.png" width = "800"/>
+</div>
+
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-19%20191258.png" width = "800"/>
+</div>
+
+***
 
 ## 3 Introduction to other CAD softwares
 ### 3.1 Solidworks
