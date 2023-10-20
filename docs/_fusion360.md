@@ -79,8 +79,9 @@
 
 - Congratulations on successfully installing the plugin!
 
+
 ### 2.2 Modeling process
-#### 2.2.1 Modeling Process (with Parameterization)
+#### 2.2.1 Modeling Process (with GIF and Parametric Design)
 
 - Create a new group folder in "zju2023" .
 
@@ -128,10 +129,39 @@
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E8%BF%90%E5%8A%A8%E4%BB%BF%E7%9C%9F.gif" width = "800"/>
 </div>  
 
-#### 2.2.2 Equipment and Motion Simulation (GIF)
-#### 2.2.3 Engineering Drawing
+
+#### About Parametric Design
+- Operation steps as shown in the diagrams.
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-20%20170208.png" width = "800"/>
+</div>
+
+- Set parameters.
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-20%20162600.png" width = "800"/>
+</div>
+
+- Obtain corresponding parameters and related expressions.
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-20%20162519.png" width = "800"/>
+</div>
+
+- Applied to the corresponding dimensions。
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-20%20162407.png" width ="800"/>
+</div>
 
 
+#### 2.2.2 Engineering Drawing
+- By Fusion 360, we can complete the engineering drawing for the component.
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/fd16022b968808f6bead23d89725fcf.png" width ="800"/>
+</div>
 
 
 
