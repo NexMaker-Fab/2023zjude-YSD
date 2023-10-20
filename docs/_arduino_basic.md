@@ -18,10 +18,10 @@
 </div>
 <br>
 
-- 将代码写入Arduino板中
+- Upload the code.
 <br>
 
-- Debug code, run and test
+- Debug code, run and test.
 <br>
 
 ### 1.3 Code
