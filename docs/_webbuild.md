@@ -48,8 +48,6 @@ We used GitHub+Docsify to build the site. Docsify is a simple document site gene
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E7%BB%88%E7%AB%AF.PNG" width = "1000"/>
 </div>
 
-<br>
-
 >`npm i docsify-cli -g`
 
 - Determine the location, and then initialize the environment.
@@ -57,11 +55,7 @@ We used GitHub+Docsify to build the site. Docsify is a simple document site gene
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%88%9D%E5%A7%8B%E5%8C%96.PNG" width = "1000"/>
 </div>
 
-<br>
-
 >`docsify init ./docs`
-
-<br>
 
 !> **Note!!!**  
 
@@ -74,10 +68,12 @@ An error occurred during initialization. Procedure.
 </div>
 
 Get all the execution policies that affect the current session and display them in priority order:
->`Get-ExecutionPolicy -List
+
+>`Get-ExecutionPolicy -List`
 
 To set an execution policy within a specific range, do the following:
->`Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+>`Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
 
 Then you can initialize it successfully.
 
