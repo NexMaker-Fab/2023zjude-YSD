@@ -1,24 +1,27 @@
 # Arduino Basic
 
 ## 1 An open source project
-- Program brief
+### 1.1 Program brief
 
    In view of the problems that people often cannot water potted plants at home or office in time due to their busy lives and unreasonable watering methods, this paper designs an intelligent watering device for indoor potted plants based on Arduino, and uses soil temperature and humidity sensors to monitor soil temperature and humidity in real time.
-- Project diaplay
+### 1.2 Project diaplay
    - Picture presentation
 
       ![](https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-20%20171955.png)
    - Video presentation
 
        https://www.youtube.com/watch?v=T_tpKoNCVYw
-- Code
+### 1.3 Code
    
    The code can be downloaded from here: https://github.com/DIY-Machines/SmartPlantV1
 
-- Keypoint
+### 1.4 Keypoint
    - A great idea which combines 3D printing and arduino 
    - A combination of sensors
    - Develop a low-cost smart flower pot
+
+***
+
 ## 2 Water Light Program
 
 ### 2.1 List of components
@@ -83,6 +86,7 @@ void loop()
   }
 }
 ```
+***
 
 ## Reference
 - 《Arduino权威指南》, Micbael Margolis, 杨昆云（译）
