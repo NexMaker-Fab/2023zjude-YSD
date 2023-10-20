@@ -50,6 +50,8 @@
 ## 2 Steps
 ### 2.1 Install the plugin
 
+Reference:https://www.bilibili.com/video/BV1xX4y1E7nG?p=26&vd_source=982ffcc1436143f507d32c7267355fcc
+
 - Open the [Fusion 360 App Store](https://apps.autodesk.com/FUSION/zh-CN/Home/Index), select the desired plugin.
 
 <div align="center">
@@ -76,9 +78,9 @@
 - Congratulations on successfully installing the plugin!
 
 ### 2.2 Modeling process
-#### 2.2.1 零件建模过程(体现参数化）
-#### 2.2.2 装备和运动仿真（GIF）
-#### 2.2.3 工程图
+#### 2.2.1 Modeling Process (with Parameterization)
+#### 2.2.2 Equipment and Motion Simulation (GIF)
+#### 2.2.3 Engineering Drawing
 
 
 
