@@ -85,6 +85,8 @@ Then you can initialize it successfully.
 - Set index.html, sidebar and coverpage，The code for index.html is as follows:
 
 ```HTML
+<!--index.html-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -101,8 +103,8 @@ Then you can initialize it successfully.
     window.$docsify = {
       name: '',
       repo: '',
-      loadSidebar: true,
-      coverpage: true,
+      loadSidebar: true, <!--to create set sidebar-->
+      coverpage: true, <!--to create a coverpage-->
     }
   </script>
   <!-- Docsify v4 -->
@@ -114,6 +116,8 @@ Then you can initialize it successfully.
 - Create "_sidebar.md", and enter the contents of the sidebar. The sidebar code is as follows:
 
 ```HTML
+<!--_sidebar.md-->
+
 <div align= 'center'>
   < img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/logo.jpg?raw=true" width = "200"/>
 </div>
@@ -131,6 +135,7 @@ Then you can initialize it successfully.
 - Create "_coverpage.md", and enter the contents of the coverpage. The coverpage contains a logo image and a button to go to the homepage. The coverpage code is as follows:
 
 ```HTML
+<!--_coverpage.md-->
 <div>
   <img src="https://github.com/erkoww/YSD_img/blob/main/img/1ogo.png?raw=true" width = "500"/>
 </div> 
