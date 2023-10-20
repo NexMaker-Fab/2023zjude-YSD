@@ -238,7 +238,8 @@ Then you can initialize it successfully.
 </div>
 
 #### ② Add an image
-- Use the following code to insert an image into the document:
+- Fill in the name of the image you want to display in `[ ]` and the address of the image in `( )`.
+- The sample code is as follows:
 
 ```HTML
 ![logo of fusion360](https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/fusion360_logo.png)
