@@ -50,7 +50,9 @@
 ## 2 Steps
 ### 2.1 Install the plugin
 
-Reference:https://www.bilibili.com/video/BV1xX4y1E7nG?p=26&vd_source=982ffcc1436143f507d32c7267355fcc
+- Reference
+
+  https://www.bilibili.com/video/BV1xX4y1E7nG?p=26&vd_source=982ffcc1436143f507d32c7267355fcc
 
 - Open the [Fusion 360 App Store](https://apps.autodesk.com/FUSION/zh-CN/Home/Index), select the desired plugin.
 
