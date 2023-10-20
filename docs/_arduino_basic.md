@@ -1,15 +1,17 @@
 # Arduino Basic
 
-## 1 Water Light Program
+## 1 An open source project
 
-### 1.1 List of components
+## 2 Water Light Program
+
+### 2.1 List of components
 - Arduino UNO * 1
 - Breadboard * 1
 - LED * 6
 - 1kΩ resistance * 6
 - Some Dupont threads 
 
-### 1.2 Schematic circuit diagram
+### 2.2 Schematic circuit diagram
 - Connect the relevant components according to the wiring diagram.
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E6%B5%81%E6%B0%B4%E7%81%AF.png" width=400/>
@@ -25,10 +27,10 @@
 - Upload the code.
 <br>
 
-- Debug code, run and test.
+- Debug, run and test.
 <br>
 
-### 1.3 Code
+### 2.3 Code
 ```C++
 // water light program
 const int numled=6;
@@ -64,3 +66,6 @@ void loop()
   }
 }
 ```
+
+## Reference
+- 《Arduino权威指南》, Micbael Margolis, 杨昆云（译）
