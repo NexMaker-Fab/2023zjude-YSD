@@ -13,6 +13,8 @@
   * Project Management
     * [Web Page Construction](_webbuild.md)
   * [Fusion 360](_fusion360.md)
+  * Arduino
+    * [Arduino basic](_arduino_basic.md)
 * FINAL PROJECT
   *  [Initial Concept](_concept.md)
   
