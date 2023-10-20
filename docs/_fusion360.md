@@ -119,13 +119,13 @@
 - The following animated GIF demonstrates our modeling process.
   
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%BB%BA%E6%A8%A1%E8%BF%87%E7%A8%8B.gif" width = "800"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/abbbffd0eb0b0fc80fc9810aa759e000.gif" width = "800"/>
 </div>
 
 - The following animated GIF showcases our motion simulation process.
 
 <div align="center">
-  <img src="" width = "800"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E8%BF%90%E5%8A%A8%E4%BB%BF%E7%9C%9F.gif" width = "800"/>
 </div>  
 
 #### 2.2.2 Equipment and Motion Simulation (GIF)
