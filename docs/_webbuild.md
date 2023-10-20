@@ -128,10 +128,15 @@ Then you can initialize it successfully.
 * COURSE PRACTICE
 * FINAL PROJECT
 ```
-- Create "_coverpage.md", and enter the contents of the coverpage. The coverpage code is as follows:
+- Create "_coverpage.md", and enter the contents of the coverpage. The coverpage contains a logo image and a button to go to the homepage. The coverpage code is as follows:
 
 ```HTML
+<div>
+  <img src="https://github.com/erkoww/YSD_img/blob/main/img/1ogo.png?raw=true" width = "500"/>
+</div> 
 
+# Welcome to Team YSD! 
+[Let's go!!!!!](teamintro.md)
 ```
 
 #### ③ Upload to GitHub
