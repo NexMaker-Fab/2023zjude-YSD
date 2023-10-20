@@ -103,8 +103,8 @@ Then you can initialize it successfully.
     window.$docsify = {
       name: '',
       repo: '',
-      loadSidebar: true, <!--to create set sidebar-->
-      coverpage: true, <!--to create a coverpage-->
+      loadSidebar: true, //to create a sidebar
+      coverpage: true, //to create a coverpage
     }
   </script>
   <!-- Docsify v4 -->
@@ -136,6 +136,7 @@ Then you can initialize it successfully.
 
 ```HTML
 <!--_coverpage.md-->
+
 <div>
   <img src="https://github.com/erkoww/YSD_img/blob/main/img/1ogo.png?raw=true" width = "500"/>
 </div> 
