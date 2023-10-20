@@ -73,6 +73,17 @@
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-19%20191258.png" width = "800"/>
 </div>
 
+- Congratulations on successfully installing the plugin!
+
+### 2.2 Modeling process
+#### 2.2.1 零件建模过程(体现参数化）
+#### 2.2.2 装备和运动仿真（GIF）
+#### 2.2.3 工程图
+
+
+
+
+
 ***
 
 ## 3 Introduction to other CAD softwares
