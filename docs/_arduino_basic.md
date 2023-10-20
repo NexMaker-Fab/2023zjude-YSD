@@ -2,7 +2,7 @@
 
 ## 1 Water Light Program
 
-### 1.1 List of components:
+### 1.1 List of components
 - LED
 
 ### 1.2 Schematic circuit diagram
