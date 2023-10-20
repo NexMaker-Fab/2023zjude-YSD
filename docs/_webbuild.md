@@ -220,7 +220,7 @@ Then you can initialize it successfully.
 
 ### 3 Write the documents with markdown
 #### ① Title
-- The `#` sign can be used to indicate 1-6 levels of headings, with `#` sign for a first level heading, `##` signs for a second level heading, and so on.
+- The `#` can be used to indicate 1-6 levels of headings, with `#` for a first level heading, `##` for a second level heading, and so on.
 - The sample code is as follows:
 
 ```HTML
