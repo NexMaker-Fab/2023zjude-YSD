@@ -94,5 +94,5 @@
 ### 3.1 Solidworks
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/solidworks.jpg" width = "500"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/solidworks.jpg" width = "800"/>
 </div>
