@@ -82,7 +82,7 @@ Then you can initialize it successfully.
 
 - The website link will be generated.
 
-- Set index.html和sidebar，The code for index.html is as follows:
+- Set index.html, sidebar and coverpage，The code for index.html is as follows:
 
 ```HTML
 <!DOCTYPE html>
@@ -111,7 +111,7 @@ Then you can initialize it successfully.
 </html>
 ```
 
-- Create “_sidebar.md”，and enter the contents of the sidebar. The sidebar code is as follows:
+- Create "_sidebar.md", and enter the contents of the sidebar. The sidebar code is as follows:
 
 ```HTML
 <div align= 'center'>
@@ -128,6 +128,12 @@ Then you can initialize it successfully.
 * COURSE PRACTICE
 * FINAL PROJECT
 ```
+- Create "_coverpage.md", and enter the contents of the coverpage. The coverpage code is as follows:
+
+```HTML
+
+```
+
 #### ③ Upload to GitHub
 - Upload changes using GitHub Desktop and view Web results on GitHub.
 
