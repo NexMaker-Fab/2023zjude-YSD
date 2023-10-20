@@ -220,7 +220,8 @@ Then you can initialize it successfully.
 
 ### 3 Write the documents with markdown
 #### ① Title
-- The `#` sign can be used to indicate 1-6 levels of headings, with one `#` sign for a first level heading, two `#` signs for a second level heading, and so on.
+- The `#` sign can be used to indicate 1-6 levels of headings, with `#` sign for a first level heading, `##` signs for a second level heading, and so on.
+- The sample code is as follows:
 
 ```HTML
 # This is a first-level title.
@@ -232,9 +233,24 @@ Then you can initialize it successfully.
 ```
 - The effect is as follows：
 
-<div align= 'center'>
-  <img src="https://github.com/erkoww/YSD_img/blob/main/img/%E5%A4%8D%E5%88%B6%E9%93%BE%E6%8E%A5.png?raw=true" width = "1000"/>
+<div>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/markdown_title.png" width = "500"/>
 </div>
+
+#### ② Add an image
+- Use the following code to insert an image into the document:
+
+```HTML
+![logo of fusion360](https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/fusion360_logo.png)
+```
+
+#### ③ Add a link
+- Fill in the name of the link you want to display in `[ ]` and the link address in `( )`.
+- The sample code is as follows:
+
+```HTML
+[Google Scholar](https://scholar.google.com/)
+```
 
 ***
 
