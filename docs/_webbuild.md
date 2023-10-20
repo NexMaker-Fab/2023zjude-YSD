@@ -24,6 +24,8 @@ We used GitHub+Docsify to build the site. Docsify is a simple document site gene
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E9%82%80%E8%AF%B7.png" width = "1000"/>
 </div>
 
+<br>
+
 <div align= 'center'>
   <img src="https://github.com/erkoww/YSD_img/blob/main/img/add%20people.png?raw=true" width = "1000"/>
 </div>
@@ -46,21 +48,24 @@ We used GitHub+Docsify to build the site. Docsify is a simple document site gene
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E7%BB%88%E7%AB%AF.PNG" width = "1000"/>
 </div>
 
+<br>
+
 >`npm i docsify-cli -g`
 
 - Determine the location, and then initialize the environment.
-- <div align= 'center'>
+<div align= 'center'>
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%88%9D%E5%A7%8B%E5%8C%96.PNG" width = "1000"/>
 </div>
 
+<br>
+
 >`docsify init ./docs`
 
+<br>
 
 !> **Note!!!**  
 
-
 !> The problem we encountered (If you are a Mac user, please skip this step)
-
 
 An error occurred during initialization. Procedure.
 
