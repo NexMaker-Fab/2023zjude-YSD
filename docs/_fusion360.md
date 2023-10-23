@@ -171,17 +171,9 @@
 ### 3.1 Solidworks
 #### 3.1.1 Introduction
 
-<div align="center">
-  <img src="https://github.com/erkoww/YSD_img/blob/main/img/Solidworks%20logo.png" width = "500"/>
-</div>
-
 SolidWorks is a 3D Computer-Aided Design (CAD) software developed by Dassault Systèmes. It is primarily used in mechanical engineering and product design.The Solidworks CAD software package covers design, simulation, cost estimating, manufacturability inspection, CAM, sustainable design and data management.
 
 #### 3.1.2 Features
-
-<div align="center">
-  <img src="https://github.com/erkoww/YSD_img/blob/main/img/sw%E7%95%8C%E9%9D%A2.png" width = "800"/>
-</div>
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/solidworks.jpg" width = "800"/>
