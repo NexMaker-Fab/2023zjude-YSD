@@ -187,7 +187,7 @@ SolidWorks is a 3D Computer-Aided Design (CAD) software developed by Dassault Sy
 - **Drawing and Documentation**: Users can generate detailed engineering drawings, blueprints, and documents using SolidWorks to support manufacturing, assembly, and maintenance.
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/solidworks.jpg" width = "800"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/solidworks.jpg" width = "600"/>
 </div>
 
 - **3D Modeling**: SolidWorks allows users to create intricate three-dimensional models, including part models and assembly models. Various modeling tools are available to design and edit parts, which can then be assembled into complex assemblies.
@@ -195,11 +195,9 @@ SolidWorks is a 3D Computer-Aided Design (CAD) software developed by Dassault Sy
 - **Simulation and Analysis**: SolidWorks offers robust simulation and analysis capabilities, including finite element analysis (FEA) and motion analysis, to evaluate the performance, strength, and motion behavior of parts and assemblies.
 
 - **Cloud Integration**: SolidWorks provides cloud integration, allowing users to store, access, and share design data in the cloud to support remote and collaborative work.
-
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/sw%E7%95%8C%E9%9D%A2.png" width = "800"/>
 </div>
-
 - **User-Friendly Interface**: SolidWorks offers a relatively intuitive interface that is easy to learn and use, making it suitable for beginners and experienced designers.
 
 
