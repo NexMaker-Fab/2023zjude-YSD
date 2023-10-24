@@ -11,11 +11,11 @@
   * [Zhao Kayu !_! ](ZKY.md)
 * COURSE PRACTICE
   * Project Management
-   * [Web Page Construction](_webbuild.md)
+  ** [Web Page Construction](_webbuild.md)
   * CAD
-   * [Fusion 360](_fusion360.md)
+  ** [Fusion 360](_fusion360.md)
   * Arduino
-   * [Arduino Basic](_arduino_basic.md)
+  ** [Arduino Basic](_arduino_basic.md)
 * FINAL PROJECT
   * [Initial Concept](_concept.md)
   
