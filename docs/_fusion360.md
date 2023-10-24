@@ -181,11 +181,9 @@ SolidWorks is a 3D Computer-Aided Design (CAD) software developed by Dassault Sy
 #### 3.1.2 Features
 
 - **Wide Range of Application Areas**:   SolidWorks is widely applied across multiple industries, including mechanical engineering, automotive, aerospace, medical devices, electronics, consumer goods, and architecture, among others.
-
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/sw%E6%96%B0%E5%BB%BA%E7%B1%BB%E5%9E%8B.png" width = "800"/>
 </div>
-
 - **Drawing and Documentation**: Users can generate detailed engineering drawings, blueprints, and documents using SolidWorks to support manufacturing, assembly, and maintenance.
 
 <div align="center">
