@@ -178,10 +178,6 @@
 
 SolidWorks is a 3D Computer-Aided Design (CAD) software developed by Dassault Systèmes. It is primarily used in mechanical engineering and product design.The Solidworks CAD software package covers design, simulation, cost estimating, manufacturability inspection, CAM, sustainable design and data management.
 
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/sw%E7%95%8C%E9%9D%A2.png" width = "800"/>
-</div>
-
 #### 3.1.2 Features
 
 - **Wide Range of Application Areas**:   SolidWorks is widely applied across multiple industries, including mechanical engineering, automotive, aerospace, medical devices, electronics, consumer goods, and architecture, among others.
@@ -200,10 +196,15 @@ SolidWorks is a 3D Computer-Aided Design (CAD) software developed by Dassault Sy
 
 - **Simulation and Analysis**: SolidWorks offers robust simulation and analysis capabilities, including finite element analysis (FEA) and motion analysis, to evaluate the performance, strength, and motion behavior of parts and assemblies.
 
-
 - **Cloud Integration**: SolidWorks provides cloud integration, allowing users to store, access, and share design data in the cloud to support remote and collaborative work.
 
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/sw%E7%95%8C%E9%9D%A2.png" width = "800"/>
+</div>
+
 - **User-Friendly Interface**: SolidWorks offers a relatively intuitive interface that is easy to learn and use, making it suitable for beginners and experienced designers.
+
+
 
 
 
