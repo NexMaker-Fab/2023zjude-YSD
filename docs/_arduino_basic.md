@@ -35,9 +35,7 @@ The code can be downloaded from here: https://github.com/DIY-Machines/SmartPlant
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E6%B5%81%E6%B0%B4%E7%81%AF.png" width=400/>
 </div>
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/18FF50A3EC27C4F51AB7F661DD377C3F.png" width=400/>
-</div>
+![](https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/18FF50A3EC27C4F51AB7F661DD377C3F.png)
 <br>
 
 - Write code in the Arduino IDE.
