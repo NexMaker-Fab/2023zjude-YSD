@@ -36,9 +36,9 @@ The code can be downloaded from here: https://github.com/DIY-Machines/SmartPlant
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E6%B5%81%E6%B0%B4%E7%81%AF.png" width=400/>
 </div>
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/18FF50A3EC27C4F51AB7F661DD377C3F.png" width=200/>
+  <img src="![](https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-25%20190600.png)" width=400/>
 </div>
-![](https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/18FF50A3EC27C4F51AB7F661DD377C3F.png)
+
 <br>
 
 - Write code in the Arduino IDE.
@@ -91,6 +91,6 @@ void loop()
 ```
 ### 2.4 Video presentation
 ***
-
+![](https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/YSD%20-small-original.gif)
 ## Reference
 - 《Arduino权威指南》, Micbael Margolis, 杨昆云（译）
