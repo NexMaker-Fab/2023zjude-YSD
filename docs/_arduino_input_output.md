@@ -148,10 +148,11 @@ void loop()
 
 ### 1.3 Video Presentation
 
+![](https://www.youtube.com/watch?v=iA5BMdU4myI)
+
 <div align="center">
 <video controls width="640" height="360">
   <source src="https://www.youtube.com/watch?v=iA5BMdU4myI" type="video/mp4">
-  您的浏览器不支持视频标签。
 </video>
 </div>
 
