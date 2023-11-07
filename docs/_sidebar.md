@@ -10,9 +10,13 @@
   * [Wang Shuyi oi-io ](WSY.md)
   * [Zhao Kayu !_! ](ZKY.md)
 * COURSE PRACTICE
-  * Project Management-[Web Page Construction](_webbuild.md)
-  * CAD-[Fusion 360](_fusion360.md)
-  * Arduino-[Arduino Basic](_arduino_basic.md)
+  * Project Management
+    * [Web Page Construction](_webbuild.md)
+  * CAD
+    * [Fusion 360](_fusion360.md)
+  * Arduino
+    * [Arduino Basic](_arduino_basic.md)
+    * [Arduino Input & Output](_arduino_input_output.md)  
 * FINAL PROJECT
   * [Initial Concept](_concept.md)
   
