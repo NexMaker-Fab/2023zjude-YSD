@@ -144,10 +144,9 @@ void loop()
 
 ### 1.3 Video Presentation
 
-<video controls width="640" height="360">
-  <source src="your-local-video.mp4" type="video/mp4">
-  您的浏览器不支持视频标签。
-</video>
+<div align="center">
+ <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/GIF%202023-11-7%2020-17-56.gif" width=400/>
+</div>
 
 ## 2 Arduino Output Program
 ### 2.1 Introduction
