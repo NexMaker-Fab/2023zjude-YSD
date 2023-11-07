@@ -20,9 +20,23 @@ The project plans to implement some functions of a real weather detection system
 - Some Dupont threads
 #### 1.2.4 Schematic circuit diagram
 - Connect the relevant components according to the wiring diagram.
+
+<div align="center">
+ <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/environment_wire.png" width=400/>
+</div>
+
 - Write code in the Arduino IDE.
+
+<div align="center">
+ <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/environment_code.png" width=400/>
+</div>
+
 - Upload the code.
+<br>
+
 - Debug, run and test.
+<br>
+
 #### 1.2.5 Code
 
 ```C++
