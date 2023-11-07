@@ -1,15 +1,24 @@
 # Arduino Input & Output
 ## 1 Arduino Input Program
+
 ### 1.1 Introduction
+
 With the increasingly serious problem of environmental pollution, living conditions have been greatly improved, and people's attention to the environment has also greatly increased. Based on this, our team have designed and developed a project that integrates multiple functions such as measuring temperature, humidity, PM2.5, water level, and soil moisture.
+
 ### 1.2 Experiment
+
 #### 1.2.1 Experimental Purpose
+
 The project plans to implement some functions of a real weather detection system, by using sensors for environmental detection to collect and detect data. Implement a project design that integrates multifunctional monitoring.
+
 #### 1.2.2 Experimental design
+
 1. Accurate measurement of temperature and humidity, PM2.5, water level, and soil moisture sensor data;
 2. When the specified range value is exceeded, the RGB light can light up the corresponding color note, and the buzzer will sound;
 3. LCD screen display: scrolling display, button switching display, infrared button for screen switching+infrared button (press a certain key to go to a specified value).
+
 #### 1.2.3 List of components
+
 - Arduino UNO * 1
 - Breadboard * 2
 - DHT11 temperature and humidity sensor * 1
@@ -20,7 +29,9 @@ The project plans to implement some functions of a real weather detection system
 - LCD display screen * 1
 - potentiometer * 1
 - Some Dupont threads
+
 #### 1.2.4 Schematic circuit diagram
+
 - Connect the relevant components according to the wiring diagram.
 
 <div align="center">
