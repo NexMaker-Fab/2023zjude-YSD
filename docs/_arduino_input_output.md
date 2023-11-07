@@ -148,10 +148,12 @@ void loop()
 
 ### 1.3 Video Presentation
 
+<div align="center">
 <video controls width="640" height="360">
-  <source src="https://youtu.be/iA5BMdU4myI" type="video/mp4">
+  <source src="https://www.youtube.com/watch?v=iA5BMdU4myI" type="video/mp4">
   您的浏览器不支持视频标签。
 </video>
+</div>
 
 ## 2 Arduino Output Program
 ### 2.1 Introduction
@@ -161,12 +163,15 @@ This project is a simple attempt to use Arduino to control the servo. The desire
 
  - Arduino UNO * 1
  - Servo * 1
- - Breadboard * 1
  - Some Dupont threads
 
 #### 2.2.2 Schematic circuit diagram
 
 - Connect the relevant components according to the wiring diagram.
+
+<div align="center">
+ <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/servo_wire.png" width=400/>
+</div>
 
 - Write code in the Arduino IDE.
 
@@ -206,3 +211,8 @@ void loop() {
 }
 ```
 ### 2.3 Video Presentation
+
+<div align="center">
+ <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/GIF%202023-11-7%2021-45-42.gif" width=400/>
+</div>
+
