@@ -2,7 +2,6 @@
 ## 1 Arduino Input Program
 
 ### 1.1 Introduction
-
 With the increasingly serious problem of environmental pollution, living conditions have been greatly improved, and people's attention to the environment has also greatly increased. Based on this, our team have designed and developed a project that integrates multiple functions such as measuring temperature, humidity, PM2.5, water level, and soil moisture.
 
 ### 1.2 Experiment
