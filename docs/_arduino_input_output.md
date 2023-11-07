@@ -148,13 +148,7 @@ void loop()
 
 ### 1.3 Video Presentation
 
-![](https://www.youtube.com/watch?v=iA5BMdU4myI)
-
-<div align="center">
-<video controls width="640" height="360">
-  <source src="https://www.youtube.com/watch?v=iA5BMdU4myI" type="video/mp4">
-</video>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iA5BMdU4myI?si=eRnwno4qKqoCv8X9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## 2 Arduino Output Program
 ### 2.1 Introduction
