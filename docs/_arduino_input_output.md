@@ -10,6 +10,8 @@ The project plans to implement some functions of a real weather detection system
 2. When the specified range value is exceeded, the RGB light can light up the corresponding color note, and the buzzer will sound;
 3. LCD screen display: scrolling display, button switching display, infrared button for screen switching+infrared button (press a certain key to go to a specified value).
 #### 1.2.3 List of components
+- Arduino UNO * 1
+- Breadboard * 2
 - DHT11 temperature and humidity sensor * 1
 - PM2.5 sensor * 1
 - YL-69 soil humidity sensor * 1
