@@ -145,3 +145,56 @@ void loop()
 ### 1.3 Video Presentation
 
 ## 2 Arduino Output Program
+### 2.1 Introduction
+This project is a simple attempt to use Arduino to control the servo. The desired result is for the servo to rotate from 0 ° to 180 °, and then from 180 ° to 0 °.
+### 2.2 Experiment
+#### 2.2.1 List of components
+
+ - Arduino UNO * 1
+ - SG90 Servo * 1
+ - Breadboard * 1
+ - Some Dupont threads
+
+#### 2.2.2 Schematic circuit diagram
+
+- Connect the relevant components according to the wiring diagram.
+
+- Write code in the Arduino IDE.
+
+<div align="center">
+ <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/servo_code.png" width=400/>
+</div>
+
+- Upload the code.
+<br>
+
+- Debug, run and test.
+<br>
+
+#### 2.2.3 Code
+
+```C++
+
+#include <Servo.h>
+ 
+Servo myservo;  // 定义Servo对象来控制
+int pos = 0;    // 角度存储变量
+ 
+void setup() {
+  myservo.attach(9);  // 控制线连接数字9
+}
+ 
+void loop() {
+  for (pos = 0; pos <= 180; pos ++) { // 0°到180°
+    // in steps of 1 degree
+    myservo.write(pos);              // 舵机角度写入
+    delay(5);                       // 等待转动到指定角度
+  }
+ 
+  for (pos = 180; pos >= 0; pos --) { // 从180°到0°
+    myservo.write(pos);              // 舵机角度写入
+    delay(5);                       // 等待转动到指定角度
+  }
+}
+```
+### 2.3 Video Presentation
