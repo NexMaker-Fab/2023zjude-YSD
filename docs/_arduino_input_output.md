@@ -37,6 +37,10 @@ The project plans to implement some functions of a real weather detection system
  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/environment_wire.png" width=400/>
 </div>
 
+<div align="center">
+ <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/environment_photo.png" width=400/>
+</div>
+
 - Write code in the Arduino IDE.
 
 <div align="center">
