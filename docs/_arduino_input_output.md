@@ -144,6 +144,11 @@ void loop()
 
 ### 1.3 Video Presentation
 
+<video controls width="640" height="360">
+  <source src="your-local-video.mp4" type="video/mp4">
+  您的浏览器不支持视频标签。
+</video>
+
 ## 2 Arduino Output Program
 ### 2.1 Introduction
 This project is a simple attempt to use Arduino to control the servo. The desired result is for the servo to rotate from 0 ° to 180 °, and then from 180 ° to 0 °.
