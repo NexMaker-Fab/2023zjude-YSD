@@ -151,7 +151,7 @@ This project is a simple attempt to use Arduino to control the servo. The desire
 #### 2.2.1 List of components
 
  - Arduino UNO * 1
- - SG90 Servo * 1
+ - Servo * 1
  - Breadboard * 1
  - Some Dupont threads
 
