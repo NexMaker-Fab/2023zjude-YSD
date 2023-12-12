@@ -18,7 +18,7 @@
     * [Arduino Basic](_arduino_basic.md)
     * [Arduino Input & Output](_arduino_input_output.md) 
   * 3D Printing
-    *[Banbu](_Banbu.md) 
+     * [Banbu](_Banbu.md) 
 * FINAL PROJECT
   * [Initial Concept](_concept.md)
   
