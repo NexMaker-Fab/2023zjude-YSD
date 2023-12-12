@@ -2,51 +2,46 @@
   <img src="https://github.com/erkoww/YSD_img/blob/main/img/1ogo.png?raw=true" width="200"/>
 </div>
 
-<div class="sidebar">
-  <h2 onclick="toggleSection('team')">TEAM INTRODUCE</h2>
-  <div id="team" class="section">
+<h1>TEAM INTRODUCE</h1>
+<ul>
+  <li><h2>Team Introduction</h2></li>
+  <li><h2>Feng Yujuan ๑ᵒᯅᵒ๑ </h2></li>
+  <li><h2>Guo Kewei| ᐕ)⁾⁾</h2></li>
+  <li><h2>Lu Yue ⌓‿⌓ </h2></li>
+  <li><h2>Wang Shuyi oi-io </h2></li>
+  <li><h2>Zhao Kayu !_! </h2></li>
+</ul>
+
+<h1>COURSE PRACTICE</h1>
+<ul>
+  <li>
+    <h2>Project Management</h2>
     <ul>
-      <li><a href="teamintro.md">Team Introduction</a></li>
-      <li><a href="FYJ.md">Feng Yujuan ๑ᵒᯅᵒ๑</a></li>
-      <li><a href="GKW.md">Guo Kewei| ᐕ)⁾⁾</a></li>
-      <li><a href="LY.md">Lu Yue ⌓‿⌓</a></li>
-      <li><a href="WSY.md">Wang Shuyi oi-io</a></li>
-      <li><a href="ZKY.md">Zhao Kayu !_!</a></li>
+      <li><h3>Web Page Construction</h3></li>
     </ul>
-  </div>
-
-  <h2 onclick="toggleSection('course')">COURSE PRACTICE</h2>
-  <div id="course" class="section">
+  </li>
+  <li>
+    <h2>CAD</h2>
     <ul>
-      <li><a href="_webbuild.md">Project Management - Web Page Construction</a></li>
-      <li><a href="_fusion360.md">CAD - Fusion 360</a></li>
-      <li><a href="_arduino_basic.md">Arduino - Arduino Basic</a></li>
-      <li><a href="_arduino_input_output.md">Arduino - Arduino Input & Output</a></li>
-      <li><a href="_Banbu.md">3D Printing - Banbu</a></li>
+      <li><h3>Fusion 360</h3></li>
     </ul>
-  </div>
-
-  <h2 onclick="toggleSection('final')">FINAL PROJECT</h2>
-  <div id="final" class="section">
+  </li>
+  <li>
+    <h2>Arduino</h2>
     <ul>
-      <li><a href="_concept.md">Final Project - Initial Concept</a></li>
+      <li><h3>Arduino Basic</h3></li>
+      <li><h3>Arduino Input & Output</h3></li>
     </ul>
-  </div>
-</div>
+  </li>
+  <li>
+    <h2>3D Printing</h2>
+    <ul>
+      <li><h3>Banbu</h3></li>
+    </ul>
+  </li>
+</ul>
 
-<script>
-  function toggleSection(sectionId) {
-    const section = document.getElementById(sectionId);
-    section.classList.toggle('active');
-  }
-</script>
-
-<style>
-  .section {
-    display: none;
-  }
-
-  .section.active {
-    display: block;
-  }
-</style>
+<h1>FINAL PROJECT</h1>
+<ul>
+  <li><h2>Initial Concept</h2></li> 
+</ul>
