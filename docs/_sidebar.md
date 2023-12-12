@@ -1,4 +1,4 @@
-<div>
+*<div>
   <img src="https://github.com/erkoww/YSD_img/blob/main/img/1ogo.png?raw=true" width = "200"/>
 </div>
 
@@ -18,7 +18,7 @@
     * [Arduino Basic](_arduino_basic.md)
     * [Arduino Input & Output](_arduino_input_output.md) 
   * 3D Printing
-    *[Banbu](Banbu.md) 
+    *[Banbu](_Banbu.md) 
 * FINAL PROJECT
   * [Initial Concept](_concept.md)
   
