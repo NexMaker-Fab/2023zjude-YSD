@@ -18,18 +18,18 @@
   <h2 onclick="toggleSection('course')">COURSE PRACTICE</h2>
   <div id="course" class="section">
     <ul>
-      <li><a href="_webbuild.md">Web Page Construction</a></li>
-      <li><a href="_fusion360.md">Fusion 360</a></li>
-      <li><a href="_arduino_basic.md">Arduino Basic</a></li>
-      <li><a href="_arduino_input_output.md">Arduino Input & Output</a></li>
-      <li><a href="_Banbu.md">Banbu</a></li>
+      <li><a href="_webbuild.md">Project Management - Web Page Construction</a></li>
+      <li><a href="_fusion360.md">CAD - Fusion 360</a></li>
+      <li><a href="_arduino_basic.md">Arduino - Arduino Basic</a></li>
+      <li><a href="_arduino_input_output.md">Arduino - Arduino Input & Output</a></li>
+      <li><a href="_Banbu.md">3D Printing - Banbu</a></li>
     </ul>
   </div>
 
   <h2 onclick="toggleSection('final')">FINAL PROJECT</h2>
   <div id="final" class="section">
     <ul>
-      <li><a href="_concept.md">Initial Concept</a></li>
+      <li><a href="_concept.md">Final Project - Initial Concept</a></li>
     </ul>
   </div>
 </div>
