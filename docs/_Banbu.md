@@ -58,11 +58,28 @@
 
 ***
 
-## 2 Use 3D printer to manufacture it
+## 3 Use 3D printer to manufacture it
 - Start the 3D printing process.
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/lAHPD3lG5QS3FCnMqM0BLA_300_168.gif" width = "800"/>
 </div>
 
+## 4 Final printed outcome
+-The following is the showcase of our final printed outcome.
 
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/3d-1.jpg" width = "800"/>
+</div>
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/3d-2.jpg" width = "800"/>
+</div>
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/3d-3.jpg" width = "800"/>
+</div>
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/3d-4.jpg" width = "800"/>
+</div>
