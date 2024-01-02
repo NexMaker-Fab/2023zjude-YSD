@@ -6,7 +6,7 @@
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/cnc.png" width = "800"/>
 </div>
 
-CNC (Computer Numerical Control) is an automated machining technology that enables precise manufacturing and processing of machinery and tools through computer-programmed instructions. This technology utilizes pre-written commands, often using specialized programming languages like G-code, to control the movements and operations of tools on machine tools.
+**CNC (Computer Numerical Control)** is an automated machining technology that enables precise manufacturing and processing of machinery and tools through computer-programmed instructions. This technology utilizes pre-written commands, often using specialized programming languages like G-code, to control the movements and operations of tools on machine tools.
 
 A CNC system consists primarily of a computer, controller, and machine tool components. Engineers or operators use Computer-Aided Design (CAD) software to create three-dimensional models of parts, and then use Computer-Aided Manufacturing (CAM) software to convert these models into machine-readable code, known as CNC programs. These programs contain detailed instructions directing the machine tools to perform cutting, drilling, engraving, and other operations.
 
@@ -36,9 +36,24 @@ CNC programming software refers to computer programs that are used to create, ed
 Software used for CNC programming can vary depending on the machine type, manufacturer, and the specific needs of the user or organization. Different software tools offer varying levels of functionality, compatibility, and ease of use, so it's crucial to select the appropriate software that suits the requirements and capabilities of your CNC machine.
 
 ### 4.3 G-code
-- Manufacturers all around the world use CNC programming to control a machine’s tools to produce parts. At the heart of this automated manufacturing process is a set of instructions that tells a CNC machine where – and how – to move. These instructions are called G-Code.
+G-code was first established in the 1960s by the Electronics Industry Association (EIA).Manufacturers all around the world use CNC programming to control a machine’s tools to produce parts. At the heart of this automated manufacturing process is a set of instructions that tells a CNC machine where – and how – to move. These instructions are called G-Code.
 
 G-code commands are typically represented by a combination of letters and numbers. Each command has a specific function and is executed sequentially by the CNC machine. The G-code commands cover a wide range of operations, including tool movements, spindle speed, feed rates, tool changes, coolant control, and more.
+
+The goal of every **G-code program** is to produce parts in the safest and most efficient way possible. To achieve this, you’ll typically find G-code blocks arranged in a particular order like this:
+
+- Start the CNC program.
+- Load the required tool.
+- Turn the spindle on.
+- Turn the coolant on.
+- Move to a position above a part.
+- Start the machining process.
+- Turn the coolant off.
+- Turn the spindle off.
+- Move away from the part to a safe location.
+- End the CNC program.
+
+
 
 
 ### Reference
