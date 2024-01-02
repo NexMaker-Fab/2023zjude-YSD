@@ -35,7 +35,7 @@ CNC programming software refers to computer programs that are used to create, ed
 
 Software used for CNC programming can vary depending on the machine type, manufacturer, and the specific needs of the user or organization. Different software tools offer varying levels of functionality, compatibility, and ease of use, so it's crucial to select the appropriate software that suits the requirements and capabilities of your CNC machine.
 
-### 4.3 G-code?
+### 4.3 G-code
 - Manufacturers all around the world use CNC programming to control a machine’s tools to produce parts. At the heart of this automated manufacturing process is a set of instructions that tells a CNC machine where – and how – to move. These instructions are called G-Code.
 
 G-code commands are typically represented by a combination of letters and numbers. Each command has a specific function and is executed sequentially by the CNC machine. The G-code commands cover a wide range of operations, including tool movements, spindle speed, feed rates, tool changes, coolant control, and more.
