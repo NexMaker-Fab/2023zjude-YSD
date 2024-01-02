@@ -32,7 +32,7 @@ This is a pixel-style cartoon avatar. What we want to achieve is that its eyes w
 
 ### 2.1 Code
 The code is divided into two steps:
-- Step1: draw a pixel-style cartoon avater.
+- **Step1**: draw a pixel-style cartoon avater.
 
 ```java
 void setup() {
@@ -57,7 +57,7 @@ void draw() {
 }
 
 ```
-- Step2: add mouse interaction.
+- **Step2**: add mouse interaction.
 
 ```java
 void setup() {
@@ -95,3 +95,43 @@ void draw() {
 </div>
 
 ## 3 Processing with Arduino
+In this experiment, we want to control the line movement on the screen through pressure sensors.
+
+### 3.1 List of components
+- Arduino UNO * 1
+- Pressure sensor * 1
+- voltage converter * 1
+- Some Dupont threads
+
+### 3.2 Schematic circuit diagram
+- Connect the relevant components.
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/GIF%202024-1-2%2017-36-13.gif" width = "400"/>
+</div>
+
+- Write code both in the Arduino IDE and Processing.
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/GIF%202024-1-2%2017-36-13.gif" width = "400"/>
+</div>
+
+- Run the code.
+- Debug and test.
+
+### 3.3 Code
+- Code for Arduino
+
+```java
+```
+
+- Code for Processing
+
+```java
+```
+
+### 3.4 Demo
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/GIF%202024-1-2%2017-36-13.gif" width = "400"/>
+</div>
