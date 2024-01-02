@@ -16,13 +16,12 @@ OpenFrameworks is an open-source C++ toolkit designed for creative coding. It pr
 ## 2 a Little Demo
 It is a little demo in Processing that can use mouse to interactive.
 This is a pixel-style cartoon avatar. What we want to achieve is that its eyes will follow the movement of the mouse cursor.
-`a pic of the avater`
+
 ### 2.1 Code
 The code is divided into two steps:
 - Step1: draw a pixel-style cartoon avater.
 
 ```java
-
 void setup() {
   size(200, 200); // 设置画布大小
 }
@@ -48,7 +47,6 @@ void draw() {
 - Step2: add mouse interaction.
 
 ```java
-
 void setup() {
   size(200, 200); // 设置画布大小
 }
