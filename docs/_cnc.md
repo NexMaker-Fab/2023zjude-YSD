@@ -1,4 +1,4 @@
-# <font color="#99CCFF">CNC</font>
+# <font color="#99CCFF">CNC(Computer Numerical Control)</font>
 
 ## 1 Introduction 
 
