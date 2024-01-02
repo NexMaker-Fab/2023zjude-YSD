@@ -20,127 +20,59 @@ This is a pixel-style cartoon avatar. What we want to achieve is that its eyes w
 ### 2.1 Code
 The code is divided into two steps:
 - Step1: draw a pixel-style cartoon avater.
+
 ```java
 void setup() {
-  size(200, 200);
-  background(255); // 背景设为白色
+  size(200, 200); // 设置画布大小
 }
 
 void draw() {
-  // 头部
-  fill(255, 204, 0); // 设置填充颜色为黄色
-  ellipse(100, 100, 80, 80); // 头部圆形
-
-  // 眼睛
+  background(255); // 设置背景颜色为白色
+  
+  // 绘制头部
+  fill(255, 200, 0); // 设置填充颜色为黄色
+  ellipse(100, 100, 80, 80); // 绘制头部
+  
+  // 绘制眼睛
   fill(0); // 设置填充颜色为黑色
-  ellipse(85, 90, 10, 20); // 左眼
-  ellipse(115, 90, 10, 20); // 右眼
-
-  // 嘴巴
-  noFill();
-  stroke(255, 102, 102); // 设置轮廓颜色为粉色
-  arc(100, 110, 40, 40, 0, PI); // 嘴巴弧形
-
-  // 身体
-  fill(255, 204, 0); // 设置填充颜色为黄色
-  rect(80, 120, 40, 60); // 矩形身体
-
-  // 腿
-  stroke(0); // 设置轮廓颜色为黑色
-  line(90, 180, 90, 200); // 左腿
-  line(110, 180, 110, 200); // 右腿
+  ellipse(85, 90, 10, 10); // 绘制左眼
+  ellipse(115, 90, 10, 10); // 绘制右眼
+  
+  // 绘制嘴巴
+  stroke(255, 0, 0); // 设置描边颜色为红色
+  line(90, 110, 110, 110); // 绘制嘴巴
 }
 ```
 - Step2: add mouse interaction.
+
 ```java
 void setup() {
-  size(200, 200);
-  background(255);
+  size(200, 200); // 设置画布大小
 }
 
 void draw() {
-  // 头部
-  fill(255, 204, 0);
-  ellipse(100, 100, 80, 80);
-
-  // 眼框
-  fill(255);
-  ellipse(85, 90, 30, 30);
-  ellipse(115, 90, 30, 30);
-
-  // 眼睛
-  fill(0);
-  float eye1X = map(mouseX, 0, width, 80, 90); // 计算左眼X坐标
-  float eye1Y = map(mouseY, 0, height, 85, 95); // 计算左眼Y坐标
-  float eye2X = map(mouseX, 0, width, 110, 120); // 计算右眼X坐标
-  float eye2Y = map(mouseY, 0, height, 85, 95); // 计算右眼Y坐标
-  ellipse(eye1X, eye1Y, 10, 20); // 左眼
-  ellipse(eye2X, eye2Y, 10, 20); // 右眼
-
-  // 嘴巴
-  noFill();
-  stroke(255, 102, 102);
-  arc(100, 110, 40, 40, 0, PI);
-
-  // 身体
-  fill(255, 204, 0);
-  rect(80, 120, 40, 60);
-
-  // 腿
-  stroke(0);
-  line(90, 180, 90, 200);
-  line(110, 180, 110, 200);
-}
-```
-- Step3: Limit the movement of the eye to the eye frame.
-```java
-void setup() {
-  size(200, 200);
-  background(255);
-}
-
-void draw() {
-  // 头部
-  fill(255, 204, 0);
-  ellipse(100, 100, 80, 80);
-
-  // 眼框
-  fill(255);
-  ellipse(85, 90, 30, 30);
-  ellipse(115, 90, 30, 30);
-
-  // 眼睛
-  float eyeSize = 10;
-  float eyeDist = 20;
-  float eyeX = map(mouseX, 0, width, 80, 90); // 计算左眼X坐标
-  float eyeY = map(mouseY, 0, height, 85, 95); // 计算左眼Y坐标
-  float eye1X = constrain(eyeX, 85 - eyeDist + eyeSize / 2, 85 + eyeDist - eyeSize / 2); // 左眼X坐标限制在眼框内
-  float eye1Y = constrain(eyeY, 75 + eyeSize / 2, 105 - eyeSize / 2); // 左眼Y坐标限制在眼框内
-
-  eyeX = map(mouseX, 0, width, 110, 120); // 计算右眼X坐标
-  eyeY = map(mouseY, 0, height, 85, 95); // 计算右眼Y坐标
-  float eye2X = constrain(eyeX, 115 - eyeDist + eyeSize / 2, 115 + eyeDist - eyeSize / 2); // 右眼X坐标限制在眼框内
-  float eye2Y = constrain(eyeY, 75 + eyeSize / 2, 105 - eyeSize / 2); // 右眼Y坐标限制在眼框内
+  background(255); // 设置背景颜色为白色
   
-  fill(0);
-  ellipse(eye1X, eye1Y, eyeSize, eyeSize); // 左眼
-  ellipse(eye2X, eye2Y, eyeSize, eyeSize); // 右眼
+  // 计算眼睛位置
+  float eyeX1 = 85 + (mouseX - width / 2) * 0.05;
+  float eyeY = 90 + (mouseY - height / 2) * 0.05;
+  float eyeX2 = 115 + (mouseX - width / 2) * 0.05;
 
-  // 嘴巴
-  noFill();
-  stroke(255, 102, 102);
-  arc(100, 110, 40, 40, 0, PI);
-
-  // 身体
-  fill(255, 204, 0);
-  rect(80, 120, 40, 60);
-
-  // 腿
-  stroke(0);
-  line(90, 180, 90, 200);
-  line(110, 180, 110, 200);
+  // 绘制头部
+  fill(255, 200, 0); // 设置填充颜色为黄色
+  ellipse(100, 100, 80, 80); // 绘制头部
+  
+  // 绘制眼睛
+  fill(0); // 设置填充颜色为黑色
+  ellipse(eyeX1, eyeY, 10, 10); // 绘制左眼
+  ellipse(eyeX2, eyeY, 10, 10); // 绘制右眼
+  
+  // 绘制嘴巴
+  stroke(255, 0, 0); // 设置描边颜色为红色
+  line(90, 110, 110, 110); // 绘制嘴巴
 }
 ```
+
 ### 2.2 Demo
 `a gif`
 ## 3 Processing with Arduino
