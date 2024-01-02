@@ -19,6 +19,8 @@
     * [Arduino Input & Output](_arduino_input_output.md)
   * 3D Printing
     * [Banbu](_Banbu.md)
+  * Computer controlled cutting
+    * [Laser cutting](_Computer_controlled_cutting.md)
   * Interface Application Programming
     * [Processing](_processing.md)
   * CNC
