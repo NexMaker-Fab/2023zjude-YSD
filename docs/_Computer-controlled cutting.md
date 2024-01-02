@@ -4,7 +4,7 @@
 
 -*Laser cutting* is a technique that uses a high-energy laser beam to cut materials. This method involves focusing the laser on a specific area of the workpiece, heating the material to its melting or vaporization point, and then using gas or airflow to remove the melted or vaporized material, thereby achieving the cutting process. Laser cutting is commonly applied to metals, plastics, wood, glass, and various other materials, offering high precision and quality cutting edges. It's capable of handling complex shapes and finds widespread use in industries such as manufacturing, medical devices, automotive, aerospace, and more.
 
-## 1 Different kind of material which can be manufacture by laser cutter
+## 2 Different kind of material which can be manufacture by laser cutter
 
 ### 1.1 Metal Materials
 
@@ -158,6 +158,23 @@ Wood boards used for laser cutting need to be selected based on wood types suita
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%8D%81%E4%B8%89.jpg" width = "800"/>
+</div>
+
+-**Set the border speed to 0.1mm/s, power to 100, capable of completely penetrating the engraving to detach it from the acrylic sheet.**
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%8D%81%E5%9B%9B.jpg" width = "800"/>
+</div>
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%8D%81%E4%BA%94.jpg" width = "800"/>
+</div>
+
+***
+## 3 Presentation
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%8D%81%E5%85%AD.jpg" width = "800"/>
 </div>
 
 
