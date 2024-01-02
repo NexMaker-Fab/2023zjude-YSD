@@ -5,10 +5,6 @@
 ### 1.1 What is Processing
 Processing is a flexible software sketchbook and a language for learning how to code. It is an open-source programming language that provides an environment for programming images, animations, and sounds. Processing is used by students, artists, designers, architects, researchers, and hobbyists to learn, prototype, and produce creative works. We can [download](https://processing.org/download) the Processing Development Environment for free and start writing Processing programs. To learn the Processing language, it is recommended to try a few of the built-in examples, and check out the reference. 
 
-<div align="center">
-  <img src="https://github.com/erkoww/YSD_img/blob/main/img/processing.jpg" width = "400"/>
-</div>
-
 ### 1.2 Similar New Tools
 There are also some open-source tools available that are similar to Processing.
 
@@ -125,6 +121,7 @@ In this experiment, we want to display the pressure magnitude on the pressure se
 </div>
 
 - Run the code.
+
 !> When run the code in Processing, the serial monitor in Arduino must be turned off.
 
 - Debug and test.
