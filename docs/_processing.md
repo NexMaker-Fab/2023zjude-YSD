@@ -26,6 +26,8 @@ OpenFrameworks is an open-source C++ toolkit designed for creative coding. It pr
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/openframe.png" width = "400"/>
 </div>
 
+---
+
 ## 2 a Little Demo
 It is a little demo in Processing that can use mouse to interactive.
 This is a pixel-style cartoon avatar. What we want to achieve is that its eyes will follow the movement of the mouse cursor.
@@ -94,6 +96,8 @@ void draw() {
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/GIF%202024-1-2%2017-36-13.gif" width = "400"/>
 </div>
 
+---
+
 ## 3 Processing with Arduino
 In this experiment, we want to display the pressure magnitude on the pressure sensor using the degree of curvature of the lines.
 
@@ -121,6 +125,8 @@ In this experiment, we want to display the pressure magnitude on the pressure se
 </div>
 
 - Run the code.
+!> When run the code in Processing, the serial monitor in Arduino must be turned off.
+
 - Debug and test.
 
 ### 3.3 Code
