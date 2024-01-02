@@ -2,6 +2,10 @@
 
 ## 1 Introduction 
 
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/cnc.png" width = "800"/>
+</div>
+
 CNC (Computer Numerical Control) is an automated machining technology that enables precise manufacturing and processing of machinery and tools through computer-programmed instructions. This technology utilizes pre-written commands, often using specialized programming languages like G-code, to control the movements and operations of tools on machine tools.
 
 A CNC system consists primarily of a computer, controller, and machine tool components. Engineers or operators use Computer-Aided Design (CAD) software to create three-dimensional models of parts, and then use Computer-Aided Manufacturing (CAM) software to convert these models into machine-readable code, known as CNC programs. These programs contain detailed instructions directing the machine tools to perform cutting, drilling, engraving, and other operations.
@@ -19,3 +23,10 @@ A CNC system consists primarily of a computer, controller, and machine tool comp
 - **Design and Programming**: Engineers or operators use Computer-Aided Design (CAD) software to create a three-dimensional model of the part, then convert it into a CNC program using Computer-Aided Manufacturing (CAM) software.
 - **Program Transfer**: The developed CNC program is transferred to the CNC system through methods such as USB, LAN, or direct connections.
 - **Machining Operation**: Once the program is loaded into the CNC controller, the operator sets up the workpiece and initiates the machining process. The CNC controller precisely controls the movement of tools on the machine tool according to the instructions in the program to complete tasks like cutting, drilling, engraving, and other machining operations.
+
+
+
+
+
+### Reference
+[CNC Progranmming](https://www.autodesk.com/solutions/cnc-programming)
