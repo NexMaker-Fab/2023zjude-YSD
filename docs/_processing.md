@@ -3,7 +3,7 @@
 ## 1 Introduction
 
 ### 1.1 What is Processing
-Processing is a flexible software sketchbook and a language for learning how to code. It is an open-source programming language that provides an environment for programming images, animations, and sounds. Processing is used by students, artists, designers, architects, researchers, and hobbyists to learn, prototype, and produce creative works. We can download the Processing Development Environment for free and start writing Processing programs. To learn the Processing language, it is recommended to try a few of the built-in examples, and check out the reference. 
+Processing is a flexible software sketchbook and a language for learning how to code. It is an open-source programming language that provides an environment for programming images, animations, and sounds. Processing is used by students, artists, designers, architects, researchers, and hobbyists to learn, prototype, and produce creative works. We can [download](https://processing.org/download) the Processing Development Environment for free and start writing Processing programs. To learn the Processing language, it is recommended to try a few of the built-in examples, and check out the reference. 
 
 <div align="center">
   <img src="https://github.com/erkoww/YSD_img/blob/main/img/processing.jpg" width = "400"/>
@@ -135,3 +135,8 @@ In this experiment, we want to control the line movement on the screen through p
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/GIF%202024-1-2%2017-36-13.gif" width = "400"/>
 </div>
+
+## Reference
+- [Processing 官方网站](https://processing.org/)
+- [P5.js 官方网站](https://p5js.org/)
+- [OpenFrameworks 官方网站](https://openframeworks.cc/)
