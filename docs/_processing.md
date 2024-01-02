@@ -16,14 +16,14 @@ There are also some open-source tools available that are similar to Processing.
 P5.js is a JavaScript library that is based on Processing and provides a similar environment for programming images, animations, and sounds. It is open-source and free to use, and it is widely used by artists, designers, and developers to create interactive and generative works. P5.js provides a simple and intuitive interface for drawing shapes, colors, and images, and it also provides advanced features for working with data, sound, and video.
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/GIF%202024-1-2%2017-36-13.gif" width = "400"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/P5js.jpg" width = "400"/>
 </div>
 
 #### 1.2.2 OpenFrameworks
 OpenFrameworks is an open-source C++ toolkit designed for creative coding. It provides a simple and intuitive framework for experimentation and is designed to work as a general-purpose glue, wrapping together several commonly used libraries, including OpenGL, GLEW, GLUT, libtess2, and cairo for graphics. It is built on top of OpenGL and runs on Microsoft Windows, macOS, Linux, iOS, Android, and Emscripten.
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/processing.jpg)" width = "400"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/openframe.png" width = "400"/>
 </div>
 
 ## 2 a Little Demo
