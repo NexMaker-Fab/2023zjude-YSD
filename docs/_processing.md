@@ -22,6 +22,7 @@ The code is divided into two steps:
 - Step1: draw a pixel-style cartoon avater.
 
 ```java
+
 void setup() {
   size(200, 200); // 设置画布大小
 }
@@ -42,10 +43,12 @@ void draw() {
   stroke(255, 0, 0); // 设置描边颜色为红色
   line(90, 110, 110, 110); // 绘制嘴巴
 }
+
 ```
 - Step2: add mouse interaction.
 
 ```java
+
 void setup() {
   size(200, 200); // 设置画布大小
 }
@@ -71,6 +74,7 @@ void draw() {
   stroke(255, 0, 0); // 设置描边颜色为红色
   line(90, 110, 110, 110); // 绘制嘴巴
 }
+
 ```
 
 ### 2.2 Demo
