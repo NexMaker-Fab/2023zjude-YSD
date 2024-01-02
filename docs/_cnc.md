@@ -24,8 +24,21 @@ A CNC system consists primarily of a computer, controller, and machine tool comp
 - **Program Transfer**: The developed CNC program is transferred to the CNC system through methods such as USB, LAN, or direct connections.
 - **Machining Operation**: Once the program is loaded into the CNC controller, the operator sets up the workpiece and initiates the machining process. The CNC controller precisely controls the movement of tools on the machine tool according to the instructions in the program to complete tasks like cutting, drilling, engraving, and other machining operations.
 
+## 4 CNC Programming
+### 4.1 What is CNC programming?
+CNC programming refers to the process of creating instructions or code that is used to control computer numerical control (CNC) machines. CNC machines are automated manufacturing tools that perform precise and complex operations on various materials, such as cutting, milling, and drilling.
 
+CNC programming involves writing a series of commands, typically in the form of a programming language, G-code, that specifies the actions the CNC machine should take. These commands include information about tool movements, spindle speeds, feed rates, tool changes, and other parameters necessary to carry out a specific machining operation.
 
+### 4.2 CNC Programming Software
+CNC programming software refers to computer programs that are used to create, edit, simulate, and manage CNC programs. These software tools provide a graphical interface and a range of features to facilitate the programming and control of CNC machines.
+
+Software used for CNC programming can vary depending on the machine type, manufacturer, and the specific needs of the user or organization. Different software tools offer varying levels of functionality, compatibility, and ease of use, so it's crucial to select the appropriate software that suits the requirements and capabilities of your CNC machine.
+
+### 4.3 G-code?
+- Manufacturers all around the world use CNC programming to control a machine’s tools to produce parts. At the heart of this automated manufacturing process is a set of instructions that tells a CNC machine where – and how – to move. These instructions are called G-Code.
+
+G-code commands are typically represented by a combination of letters and numbers. Each command has a specific function and is executed sequentially by the CNC machine. The G-code commands cover a wide range of operations, including tool movements, spindle speed, feed rates, tool changes, coolant control, and more.
 
 
 ### Reference
