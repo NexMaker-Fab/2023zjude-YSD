@@ -78,5 +78,9 @@ void draw() {
 ```
 
 ### 2.2 Demo
-`a gif`
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/GIF%202024-1-2%2017-36-13.gif" width = "400"/>
+</div>
+
 ## 3 Processing with Arduino
