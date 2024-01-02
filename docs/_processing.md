@@ -107,17 +107,17 @@ In this experiment, we want to display the pressure magnitude on the pressure se
 - Connect the relevant components.
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/624a4935b935a7ed8e146b422971507.jpg" width = "400"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/624a4935b935a7ed8e146b422971507.jpg" width = "800"/>
 </div>
 
 - Write code both in the Arduino IDE and Processing.
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/1704207913399.png" width = "400"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/1704207913399.png" width = "800"/>
 </div>
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/1704207967326.png" width = "400"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/1704207967326.png" width = "800"/>
 </div>
 
 - Run the code.
@@ -174,7 +174,7 @@ void draw() {
 ### 3.4 Demo
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/GIF%202024-1-2%2022-59-34.gif" width = "400"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/GIF%202024-1-2%2022-59-34.gif" width = "800"/>
 </div>
 
 ## Reference
