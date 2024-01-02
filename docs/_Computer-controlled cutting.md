@@ -1,6 +1,6 @@
 # <font color="#99CCFF">Laser Cutting</font>
 
-## 1 Iroduction to laser cutting
+## 1 Introduction to laser cutting
 
 -*Laser cutting* is a technique that uses a high-energy laser beam to cut materials. This method involves focusing the laser on a specific area of the workpiece, heating the material to its melting or vaporization point, and then using gas or airflow to remove the melted or vaporized material, thereby achieving the cutting process. Laser cutting is commonly applied to metals, plastics, wood, glass, and various other materials, offering high precision and quality cutting edges. It's capable of handling complex shapes and finds widespread use in industries such as manufacturing, medical devices, automotive, aerospace, and more.
 
@@ -78,162 +78,86 @@ Wood boards used for laser cutting need to be selected based on wood types suita
 
 ***
 
-## 2 Steps
-### 2.1 Install the plugin
+## 2 Attempt at spiral cutting
 
-- Reference
-
-  https://www.bilibili.com/video/BV1xX4y1E7nG?p=26&vd_source=982ffcc1436143f507d32c7267355fcc
-
-- Open the [Fusion 360 App Store](https://apps.autodesk.com/FUSION/zh-CN/Home/Index), select the desired plugin.
+-**"1.Open AutoCAD, click on the circle command.**
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/20231019190202.png" width = "800"/>
-</div>
-
-- Download it.
-
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/20231019180229.png" width = "800"/>
-</div>
-
-- Run Fusion 360, follow the steps provided in the image prompts to install the plugin.
-
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-19%20182808.png" width = "800"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E4%B8%80.png" width = "800"/>
 </div>
 
 
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-19%20191258.png" width = "800"/>
-</div>
-
-- Congratulations on successfully installing the plugin!
-
-
-### 2.2 Modeling process
-#### 2.2.1 Modeling Process (with GIF and Parametric Design)
-
-- Create a new group folder in "zju2023" .
-
-- Click on "Sketch," select a plane, and start sketching.
-
-!> For better modeling, here are some small tips: Hold the middle mouse button to move parts, and hold Shift while using the middle mouse button to rotate the view.
+-**2.Specify the radius of the circle as 15.**
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/1.PNG" width = "800"/>
-</div>
-
-- The first completed part should be created by clicking "Create Component from Part," and for subsequent modeling, you can either choose to click "Create Component from Part" or directly select "New Component" under "Assemble."
-
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/2.PNG" width = "800"/>
-</div>
-
-- Next, use the extrusion command to sequentially create parts such as the base, slider, groove, and so on.
-
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/3.PNG" width = "800"/>
-</div>
-
-- Use the rotation command to construct the "Christmas tree" component.
-
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/4.PNG" width = "800"/>
-</div>
-
-- Refine the details and assign materials to each component to enhance the visual appearance.
-
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/5.PNG" width = "800"/>
-</div>
-
-- The following animated GIF demonstrates our modeling process.
-  
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/abbbffd0eb0b0fc80fc9810aa759e000.gif" width = "800"/>
-</div>
-
-- The following animated GIF showcases our motion simulation process.
-
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E8%BF%90%E5%8A%A8%E4%BB%BF%E7%9C%9F.gif" width = "800"/>
-</div>  
-
-
-#### About Parametric Design
-- Operation steps as shown in the diagrams.
-
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-20%20170208.png" width = "800"/>
-</div>
-
-- Set parameters.
-
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-20%20162600.png" width = "800"/>
-</div>
-
-- Obtain corresponding parameters and related expressions.
-
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-20%20162519.png" width = "800"/>
-</div>
-
-- Applied to the corresponding dimensions。
-
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-20%20162407.png" width ="800"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E4%BA%8C.png" width = "800"/>
 </div>
 
 
-#### 2.2.2 Engineering Drawing
-- By Fusion 360, we can complete the engineering drawing for the component.
+-**3.Click on the polygon command, default sides are 4, press Enter, click outside the circle, press Enter, to create a square.**
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/fd16022b968808f6bead23d89725fcf.png" width ="800"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E4%B8%89.png" width = "800"/>
+</div>
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%9B%9B.png" width = "800"/>
+</div>
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E4%BA%94.png" width = "800"/>
 </div>
 
 
-
-***
-
-## 3 Introduction to other CAD softwares
-### 3.1 Solidworks
+-**4.Repeat the above steps, delete the circle, and generate a spiral.**
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/Solidworks%20logo.png" width = "600"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%85%AD.png" width = "800"/>
 </div>
-
-#### 3.1.1 Introduction
-
-SolidWorks is a 3D Computer-Aided Design (CAD) software developed by Dassault Systèmes. It is primarily used in mechanical engineering and product design.The Solidworks CAD software package covers design, simulation, cost estimating, manufacturability inspection, CAM, sustainable design and data management.
-
-#### 3.1.2 Features
-
-- **Wide Range of Application Areas**:   SolidWorks is widely applied across multiple industries, including mechanical engineering, automotive, aerospace, medical devices, electronics, consumer goods, and architecture, among others.
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/sw%E6%96%B0%E5%BB%BA%E7%B1%BB%E5%9E%8B.png" width = "800"/>
-</div>
-- **Drawing and Documentation**: Users can generate detailed engineering drawings, blueprints, and documents using SolidWorks to support manufacturing, assembly, and maintenance.
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/solidworks.jpg" width = "700"/>
-</div>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E4%B8%83.png" width = "800"/>
+</div
 
-- **3D Modeling**: SolidWorks allows users to create intricate three-dimensional models, including part models and assembly models. Various modeling tools are available to design and edit parts, which can then be assembled into complex assemblies.
+-**5.Select the wireframe, click on the color on the right side, change the wireframe color, repeat the operation.**
 
-- **Simulation and Analysis**: SolidWorks offers robust simulation and analysis capabilities, including finite element analysis (FEA) and motion analysis, to evaluate the performance, strength, and motion behavior of parts and assemblies.
-
-- **Cloud Integration**: SolidWorks provides cloud integration, allowing users to store, access, and share design data in the cloud to support remote and collaborative work.
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/sw%E7%95%8C%E9%9D%A2.png" width = "800"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%85%AB.png" width = "800"/>
 </div>
-- **User-Friendly Interface**: SolidWorks offers a relatively intuitive interface that is easy to learn and use, making it suitable for beginners and experienced designers.
 
 
+-**6.Click on text, select the desired text range, input text, adjust font size, press Enter. Adjust text position.**
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E4%B9%9D.png" width = "800"/>
+</div>
 
 
+-**7.Distinguish line colors for different speeds and powers.**
 
-### Reference
-[SW Website](https://www.solidworks.com/zh-hans)
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%8D%81%E4%B8%80.png" width = "800"/>
+</div>
+
+
+-**8.Import the file into RDWorksV8, modify the speed and power of the lines.**
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%8D%81.jpg" width = "800"/>
+</div>
+
+
+-**9.Select the area to be engraved, click download, and then upload it to the engraving machine.**
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%8D%81%E4%BA%8C.jpg" width = "800"/>
+</div>
+
+
+-**10.Click on 'File,' select the recently uploaded file, click 'Start,' and the engraving process will begin.**
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%8D%81%E4%B8%89.jpg" width = "800"/>
+</div>
+
+
