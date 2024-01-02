@@ -95,7 +95,7 @@ void draw() {
 </div>
 
 ## 3 Processing with Arduino
-In this experiment, we want to control the line movement on the screen through pressure sensors.
+In this experiment, we want to display the pressure magnitude on the pressure sensor using the degree of curvature of the lines.
 
 ### 3.1 List of components
 - Arduino UNO * 1
@@ -107,13 +107,17 @@ In this experiment, we want to control the line movement on the screen through p
 - Connect the relevant components.
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/GIF%202024-1-2%2017-36-13.gif" width = "400"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/624a4935b935a7ed8e146b422971507.jpg" width = "400"/>
 </div>
 
 - Write code both in the Arduino IDE and Processing.
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/GIF%202024-1-2%2017-36-13.gif" width = "400"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/1704207913399.png" width = "400"/>
+</div>
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/1704207967326.png" width = "400"/>
 </div>
 
 - Run the code.
@@ -123,17 +127,54 @@ In this experiment, we want to control the line movement on the screen through p
 - Code for Arduino
 
 ```java
+int val=0;
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  val = analogRead(A0);
+  Serial.println(val/4);
+  delay(100);
+}
 ```
 
 - Code for Processing
 
 ```java
+import processing.serial.*;
+Serial port;
+float val;
+void setup (){
+  size(600,600);
+  frameRate(30);
+  String myPort = Serial.list()[0];
+  port = new Serial(this, myPort, 9600);
+  background(255);
+}
+
+void draw() {
+  background(0);
+  
+  if(port.available ()>0) {
+    val = port.read();
+    strokeWeight(5);
+    noFill();
+    stroke(255);
+    val = int(map(val,255, 0, 400, 0));
+    println(val);
+    
+  }
+  ellipse(300,300,400,val);
+}
 ```
 
 ### 3.4 Demo
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/GIF%202024-1-2%2017-36-13.gif" width = "400"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/GIF%202024-1-2%2022-59-34.gif" width = "400"/>
 </div>
 
 ## Reference
