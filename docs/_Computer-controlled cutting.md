@@ -23,6 +23,7 @@
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E9%92%A2%E6%9D%BF.jpg" width = "800"/>
 </div>
 
+
 -**copper**
 
 -Compared to other materials, laser cutting of copper plates faces some challenges. Copper has high thermal conductivity, requiring a higher-energy laser beam for cutting, and it's prone to thermal influence zone spreading, potentially resulting in less smooth cutting edges. Laser cutting of copper plates demands more precise control to ensure cutting quality and accuracy.
@@ -31,6 +32,7 @@
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E9%93%9C%E6%9D%BF.jpg" width = "800"/>
 </div>
 
+
 -**aluminum**
 
 -Compared to other materials, aluminum plates possess certain advantages in laser cutting. Aluminum has good thermal conductivity, making it relatively easy to be heated and cut by lasers, often resulting in smoother cutting edges. Laser cutting of aluminum plates enables high-precision cutting and processing of intricate shapes, suitable for various applications such as aerospace, automotive manufacturing, and construction projects.
@@ -38,6 +40,7 @@
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E9%93%9D%E6%9D%BF.jpg" width = "800"/>
 </div>
+
 
 ### 1.2 Non-metal Materials
 
@@ -55,6 +58,7 @@ Acrylic is a transparent plastic material, also known as polymethyl methacrylate
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E4%BA%9A%E5%85%8B%E5%8A%9B%E6%9D%BF.jpg" width = "800"/>
 </div>
 
+
 -**Wood** 
 
 Wood boards used for laser cutting need to be selected based on wood types suitable for laser processing, such as plywood, oak, birch, and sometimes softwoods like pine or willow.
@@ -62,6 +66,7 @@ Wood boards used for laser cutting need to be selected based on wood types suita
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E6%9C%A8%E6%9D%BF.jpg" width = "800"/>
 </div>
+
 
 **Glass**
 
