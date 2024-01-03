@@ -189,6 +189,9 @@ Arduino requires downloading and installing the ArduinoJson, Crypto, PubSubClien
 <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-01-03%20181350.png" width = "800"/>
 </div>
 
+
+You can directly download the AliyunIoTSDK to the Arduino project file saving address.
+
 <div align="center">
 <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/4b6ca51e0d9b940cef295563099fa8e.png" width = "800"/>
 </div>
@@ -197,3 +200,6 @@ Arduino requires downloading and installing the ArduinoJson, Crypto, PubSubClien
 <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/5fa31ace1acef98ba89b4b6364b9425.png" width = "800"/>
 </div>
 
+In addition, you need to find the file PubSubClient, open the.h file inside and modify the two macros:
+MQTT_MAX_PACKET_SIZE 1024;
+MQTT_KEEPALIVE 60;
