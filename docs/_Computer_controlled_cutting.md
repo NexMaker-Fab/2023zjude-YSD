@@ -196,7 +196,21 @@ Wood boards used for laser cutting need to be selected based on wood types suita
 
 ***
 
-## 6 Case assemble with arduino
+## 6 Result <br>
+|power/speed|30|40|50|60|70|80|
+|---|---|---|---|---|---|---|
+|**30**|**N**|**N**|**N**|**N**|**N**|**N**|
+|**40**|**N**|**N**|**N**|**N**|**N**|**N**|
+|**50**|**N**|**N**|**N**|**N**|**N**|**N**|
+|**60**|**N**|**N**|**N**|**N**|**N**|**N**|
+|**70**|**N**|**N**|**N**|**N**|**N**|**N**|
+|**80**|**N**|**N**|**N**|**N**|**N**|**N**|
+
+None of them struck due to the thickness of the plates being cut. P=100 and S=0.01mm/s were chosen for the edge, and the edge was struck through.
+
+***
+
+## 7 Case assemble with arduino
 **step1-Introduction**<br>
 Laser engraving a lampshade for led lights to create a shimmering effect
 
@@ -237,17 +251,6 @@ void loop() {
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/GIF%202024-1-3%2020-58-55.gif"" width = "400"/>
 </div>
 
-**step7-Result**<br>
-|power/speed|30|40|50|60|70|80|
-|---|---|---|---|---|---|---|
-|**30**|**N**|**N**|**N**|**N**|**N**|**N**|
-|**40**|**N**|**N**|**N**|**N**|**N**|**N**|
-|**50**|**N**|**N**|**N**|**N**|**N**|**N**|
-|**60**|**N**|**N**|**N**|**N**|**N**|**N**|
-|**70**|**N**|**N**|**N**|**N**|**N**|**N**|
-|**80**|**N**|**N**|**N**|**N**|**N**|**N**|
-
-None of them struck due to the thickness of the plates being cut. P=100 and S=0.01mm/s were chosen for the edge, and the edge was struck through.
 
 This can be used as a light display for final project！
 ***
