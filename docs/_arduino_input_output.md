@@ -1,4 +1,5 @@
-# Arduino Input & Output
+# <font color="#99CCFF">Arduino Input & Output</font>
+
 ## 1 Arduino Input Program
 
 ### 1.1 Introduction
