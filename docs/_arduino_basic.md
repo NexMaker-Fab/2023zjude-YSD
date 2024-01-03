@@ -34,24 +34,24 @@ The code can be downloaded from here: https://github.com/DIY-Machines/SmartPlant
 - Connect the relevant components according to the wiring diagram.
 <div align="center">
  
- <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E6%B5%81%E6%B0%B4%E7%81%AF.png" width=400/>
+ <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E6%B5%81%E6%B0%B4%E7%81%AF.png" width=800/>
 </div>
 <div align="center">
- <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-25%20190600.png" width=400/>
+ <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-25%20190600.png" width=800/>
  
 </div>
 <br>
 
 - Write code in the Arduino IDE.
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/arduino%E6%88%AA%E5%9B%BE.png" width=400/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/arduino%E6%88%AA%E5%9B%BE.png" width=800/>
 </div>
 <br>
 
 - Upload the code.
 <br>
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E4%B8%8A%E4%BC%A0.png" width=400/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E4%B8%8A%E4%BC%A0.png" width=800/>
 </div>
 - Debug, run and test.
 <br>
