@@ -17,6 +17,7 @@
   * Arduino
     * [Arduino Basic](_arduino_basic.md)
     * [Arduino Input & Output](_arduino_input_output.md)
+    * [Case Study](_cases.md)
   * CNC
     * [CNC manufacture](_cnc.md)
   * 3D Printing
@@ -29,4 +30,3 @@
     * [IoT](_IOT.md)
 * FINAL PROJECT
   * [Initial Concept](_concept.md)
-  * [Similar Cases](_cases.md)

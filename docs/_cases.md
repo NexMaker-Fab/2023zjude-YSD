@@ -118,3 +118,44 @@ void Task_TFT(void *pvParameters) // 这是一个任务。
 
 ## 2 Audio Memory Chest
 
+### 2.1 Introduction 
+The author places small objects, souvenirs collected around the world, and sounds captured with an mp3 recorder (market, street sounds, music, etc.) in the memory box, and every time a drawer is opened, a random audio file recorded in that location is played to evoke the memory of the time.
+
+### 2.2 Parts List
+**Electronics**:
+Most of these can be found on Sparkfun, Amazon, or Digikey.
+- Arduino Pro Mini
+- YX5300 Serial MP3 player
+- Adafruit audio amplifier
+- MCP23017 Port expander
+- US5881 Hall Effect sensors (one for each drawer)
+- Stereo switching potentiometer/knob
+- 3" Speakers
+- 3.5mm audio plug
+- Standard 2.1 x 5.5mm DC power jack
+- Female and male headers
+- Molex Connectors and sockets
+- Screw-in PCB terminal block
+- Rare earth magnets (one for each drawer)
+- Blank double-sided copper PCB
+- 10-wire Ribbon Cable
+- Mono RCA cable
+- Two RCA jacks
+- 10k resistors
+- 100uf electrolytic capacitor
+**Other materials**:
+- A chest with several drawers
+- Felt (for drawer interior)
+- Black pantyhose for speaker grilles
+- 1/4 inch MDF or plywood for speaker enclosures
+- 3/4 inch birch plywood for external case
+- screw-on legs for external case
+
+### Production process
+**Step 1**: Clean and Prepare Drawers
+**Step 2**: Build Speaker Enclosures
+**Step 3**: Build Speaker Enclosures
+**Step 4**: Create Main Board and Sensor Array Boards
+**Step 5**: Load Audio Onto SD Card, Tweak Arduino Code
+**Step 6**: Install Electronics
+**Step 7**: Wire Together Sensors and Plug Into Main Board
