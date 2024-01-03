@@ -229,9 +229,9 @@ Then you can initialize it successfully.
 ```
 
 - The effect is as follows：
-    # First-Level Title
-    ## Second-Level Title
-    ### Third-Level Title
+# First-Level Title
+## Second-Level Title
+### Third-Level Title
   
 #### ② Title
 - The `#` can be used to indicate 1-6 levels of headings, with `#` for a first level heading, `##` for a second level heading, and so on.
@@ -246,10 +246,13 @@ Then you can initialize it successfully.
 ###### This is a six-level title.
 ```
 - The effect is as follows：
+# This is a first-level title.
+## This is a second-level title.
+### This is a third-level title.
+#### This is a four-level title.
+##### This is a five-level title.
+###### This is a six-level title.
 
-<div>
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/markdown_title.png" width = "500"/>
-</div>
 
 #### ③ Add an image
 - Fill in the name of the image you want to display in `[ ]` and the address of the image in `( )`.
@@ -258,7 +261,10 @@ Then you can initialize it successfully.
 ```HTML
 ![logo of fusion360](https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/fusion360_logo.png)
 ```
-
+- The effect is as follows：
+  
+![logo of fusion360](https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/fusion360_logo.png)
+  
 #### ④ Add a link
 - Fill in the name of the link you want to display in `[ ]` and the link address in `( )`.
 - The sample code is as follows:
@@ -266,7 +272,9 @@ Then you can initialize it successfully.
 ```HTML
 [Google Scholar](https://scholar.google.com/)
 ```
-
+- The effect is as follows：<br>
+[Google Scholar](https://scholar.google.com/)
+  
 #### ⑤ Italicize
 - In Markdown, you can use an asterisk * or an underscore _ to italicize text. Just add one asterisk or underscore before and after the text you want to italicize.
 - The sample code is as follows:
