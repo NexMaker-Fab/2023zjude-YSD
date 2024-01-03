@@ -17,14 +17,14 @@
   * Arduino
     * [Arduino Basic](_arduino_basic.md)
     * [Arduino Input & Output](_arduino_input_output.md)
+  * CNC
+    * [CNC manufacture](_cnc.md)
   * 3D Printing
     * [Bambu](_Bambu.md)
   * Computer controlled cutting
     * [Laser cutting](_Computer_controlled_cutting.md)
   * Interface Application Programming
     * [Processing](_processing.md)
-  * CNC
-    * [CNC manufacture](_cnc.md)
   * IoT and Interaction
     * [IoT](_IOT.md)
 * FINAL PROJECT
