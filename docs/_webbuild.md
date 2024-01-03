@@ -303,15 +303,7 @@ Using asterisks: *This text will be italicized*
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E4%BE%A7%E8%BE%B9%E6%A0%8F%E6%8A%98%E5%8F%A0%E9%97%AE%E9%A2%98.PNG" width = "1000"/>
 </div>
 
-- We are attempting to revise the code so that the sidebar can be folded.
-
-```HTML
-
-```
-
-<div align= 'center'>
-  <img src="" width = "1000"/>
-</div>
+- Unfortunately, despite numerous attempts at modification, we still can't fold the sidebar.
 
 ### Reference
 [过程教学](https://www.nexmaker.com/doc/1projectmanage/github&docsify.html)
