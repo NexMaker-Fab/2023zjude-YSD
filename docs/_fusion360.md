@@ -163,7 +163,49 @@
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/fd16022b968808f6bead23d89725fcf.png" width ="800"/>
 </div>
 
+#### 2.2.3 The 3D model
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+</head>
+<body>
+  <script>
+    // 创建场景
+    var scene = new THREE.Scene();
 
+    // 创建相机
+    var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+    camera.position.z = 5;
+
+    // 创建渲染器
+    var renderer = new THREE.WebGLRenderer();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    document.body.appendChild(renderer.domElement);
+
+    // 加载 STL 文件
+    var loader = new THREE.STLLoader();
+    loader.load('treemodel.stl', function (geometry) {
+      var material = new THREE.MeshPhongMaterial({ color: 0xff5533, specular: 0x111111, shininess: 200 });
+      var mesh = new THREE.Mesh(geometry, material);
+
+      scene.add(mesh);
+    });
+
+    // 渲染循环
+    function animate() {
+      requestAnimationFrame(animate);
+
+      // 旋转模型
+      if (mesh) {
+        mesh.rotation.x += 0.01;
+        mesh.rotation.y += 0.01;
+      }
+
+      renderer.render(scene, camera);
+    }
+
+    animate();
+  </script>
+</body>
 
 ***
 
