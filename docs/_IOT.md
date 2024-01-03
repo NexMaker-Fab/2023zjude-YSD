@@ -19,17 +19,17 @@ The Internet of Things is an emerging area of attention from all walks of life, 
 #### 2.1.1 Pinout diagram
 
 <div align="center">
-<img src="" width = "800"/>
+<img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/a.png" width = "800"/>
 </div>
 
 #### 2.1.2 Component overview
 
 <div align="center">
-<img src="" width = "800"/>
+<img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/b.png" width = "800"/>
 </div>
 
 <div align="center">
-<img src="" width = "800"/>
+<img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/c.png" width = "800"/>
 </div>
 
 #### 2.1.3 Power pins
@@ -45,7 +45,7 @@ The Internet of Things is an emerging area of attention from all walks of life, 
 According to the chip manual of ESP32C3, GPIO2, GPIO8 and GPIO9 in the chip are Strapping Pins, the high and low level configurations of these pins may allow the chip to enter into different Boot modes, please pay attention to this point when you use these pins, otherwise it may prevent your XIAO from uploading or executing the program all the time.
 
 <div align="center">
-<img src="" width = "800"/>
+<img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/d.png" width = "800"/>
 </div>
 
 ### 2.2 Get started
@@ -62,14 +62,10 @@ First, we are going to connect XIAO ESP32C3 to the computer, connect an LED to t
 
 - Step 1. Connect XIAO ESP32C3 to your computer via a USB Type-C cable.
 
-<div align="center">
-<img src="" width = "800"/>
-</div>
-
 - Step 2. Connect an LED
 
 <div align="center">
-<img src="" width = "800"/>
+<img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/20240103154806.png" width = "800"/>
 </div>
 
 #### 2.2.2 Software setup
@@ -79,21 +75,29 @@ First, we are going to connect XIAO ESP32C3 to the computer, connect an LED to t
 - Step 3. Add ESP32 board package to your Arduino IDE.
 
 <div align="center">
-<img src="" width = "800"/>
+<img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/365b8b57fc07465bbd0ddd498e5b9c7.png" width = "800"/>
 </div>
 
 <div align="center">
-<img src="" width = "800"/>
+<img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/492371a61c6a80ddc32b8972336c9ee.png" width = "800"/>
+</div>
+
+<div align="center">
+<img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-01-03%20145105.png" width = "800"/>
+</div>
+
+<div align="center">
+<img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/5beafe65a7b576c5b391fb53822ace6.png" width = "800"/>
 </div>
 
 - Step 4. Select your board and port
 
 <div align="center">
-<img src="" width = "800"/>
+<img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-01-03%20155032.png" width = "800"/>
 </div>
 
 <div align="center">
-<img src="" width = "800"/>
+<img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-01-03%20155313.png" width = "800"/>
 </div>
 
 #### 2.2.3 Blink the LED
@@ -117,13 +121,15 @@ void loop() {
 ```
 Click the Upload button to upload the code to the board
 
-<div align="center">
-<img src="" width = "800"/>
-</div>
-
 LED has been lit up
 
 <div align="center">
-<img src="" width = "800"/>
+<img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/GIF%202024-1-3%2015-57-46.gif" width = "800"/>
+</div>
+
+>!If the following error occurs, you can refer to:
+
+<div align="center">
+<img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/e3b8273c234bab070babfc81e4bee53.png" width = "800"/>
 </div>
 
