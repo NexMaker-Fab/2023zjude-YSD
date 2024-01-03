@@ -34,6 +34,7 @@ When the author lived in the country as a child, it was a very memorable time fo
 Development environment is Arduino IDE.Get the code in GitHub. Can be designed as a reference program.
 
 - Declaration uses file and pin definitions to enable the program to successfully drive the chip to read images and music resources from the SD card.
+
 ```C++
 #include "Audio.h"
 #include "Arduino_GFX_Library.h"
@@ -82,15 +83,15 @@ void Task_TFT(void *pvParameters) // This is a task.
         vTaskDelay(2000);
     }
 }
-
-
+```
+```C++
 void Task_Audio(void *pvParameters) // This is a task.
 {
     while (1)
         audio.loop();
 }
-
-
+```
+```C++
 void audio_eof_mp3(const char *info)
 { // end of file
     Serial.print("eof_mp3     ");
@@ -115,3 +116,7 @@ void audio_eof_mp3(const char *info)
 - Using the card reader, move image files and audio files from the computer to the SD card.
 - Verify and upload the code.
 - Use a USB cable or plug in a battery. (Or USB supply power)
+
+
+## 2 Audio Memory Chest
+
