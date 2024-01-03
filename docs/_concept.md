@@ -11,14 +11,18 @@
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-18%20141005.png?raw=true" width = "1800"/>
 </div>
 
-**Using photos as the carriers of cherished memories, incorporating a recording module to capture present-day stories, and adding various scents, the recollection experience is enhanced. In the future, memories can be recalled along with the gentle release of scents. By equipping photos with recording modules and a playback device, designed with the appearance of a vinyl record, the recorded stories can be played back. This concept combines multiple senses to evoke beautiful memories.**
-
-**The integration of photos, recordings, and scents offers a more comprehensive recollection experience, enabling individuals to deeply connect with those precious moments. The design of the recording player, resembling a vinyl record, adds a nostalgic ambiance, allowing people to immerse themselves in reliving the joyful times of the past. This product design holds the potential to become a cherished memory keepsake, helping people better preserve and share their treasured moments.**
+**The theme of this board is "Ningbo Dongqianhu Wanderings", and the plan is to design 5-6 special squares, with the background of Dongqianhu's more characteristic scenery and buildings. There will be no change when the pieces move to the normal squares, but there will be change when they move to the special squares.
+Use arduino to create an interactive three-dimensional chess board, divided into two parts, one is the horizontal board, the other is the vertical background. Players use pieces to move on the horizontal board, and when the pieces move to the corresponding squares, some changes will happen in the background, which may be glowing, making a certain sound, or something rising up, similar to a three-dimensional book.**
 
 # Module composition
-**![$T0GN`LMNBC9{5M}`3C8 GE](https://github.com/NexMaker-Fab/2023zjude-YSD/assets/146055418/befc8a0b-e996-42c6-b806-b4eb97924fb0) Photos with a recording function module**
-
-**![R@SGMDL7Z3M$U7454`4PV`8](https://github.com/NexMaker-Fab/2023zjude-YSD/assets/146055418/077bf755-1c1f-4bb8-8596-7c330a859a52) Different scents or fragrances**
-
-**![JOG(9(_0ME7NQCMDU6KUUM7](https://github.com/NexMaker-Fab/2023zjude-YSD/assets/146055418/5026a693-8c24-4fcb-8143-5185f1243104) Recording player**
+**Master: arduino UNO (with expansion board) 
+Basic: Dupont wire, LED lights, power supply, coloured cardboard, slime/runner hemp, acrylic board, clay (3D printing), spray paint (pigment)
+Sensing Position: Pressure Sensor*5
+Background light colour change: RGB tricolour light
+Potter's Statue Rising: Helm*1 + Gears
+Fishing boat moves from left to right: Helm*1 + Gears
+Mallard swinging around: Servo *1 
+Other animals appear: Tiller*2
+Temple building rising: Tiller*1 + Gears
+Wetland plants appear: Tiller*3 + Gears**
 
