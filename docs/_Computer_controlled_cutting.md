@@ -6,7 +6,7 @@
 
 ## 2 Different kind of material which can be manufacture by laser cutter
 
-### 1.1 Metal Materials
+### 2.1 Metal Materials
 
 - In laser cutting, commonly used metal materials include **steel, aluminum, copper, and various alloys**. Using metal materials for laser cutting has several advantages: firstly, laser cutting provides high precision for metal materials, enabling precise cutting and processing. Secondly, the heat impact on materials during laser cutting is minimal, reducing deformation and heat-affected zones, resulting in higher quality cutting. Additionally, laser cutting can accomplish complex cutting tasks in a shorter time, enhancing production efficiency.
 
@@ -42,7 +42,7 @@
 </div>
 
 
-### 1.2 Non-metal Materials
+### 2.2 Non-metal Materials
 
 - In laser cutting, commonly used non-metal materials include **plastics, wood, leather, rubber, paper, glass, and various composite materials**.Laser cutting provides high precision for non-metal materials, enabling precise cutting and processing.
 
@@ -77,8 +77,25 @@ Wood boards used for laser cutting need to be selected based on wood types suita
 </div>
 
 ***
+## 2 Design rules
 
-## 2 Attempt at spiral cutting
+**Safety First**: Laser cutting involves high energy; operators must wear appropriate personal protective equipment such as goggles, protective clothing, etc. Ensure the work area is clear of unauthorized personnel and adhere to relevant safety protocols.
+
+**Material Preparation**: Identify the type and properties of the material to be processed and prepare materials that meet laser cutting requirements. Clean and secure workpieces to ensure stability and flatness.
+
+**Operating Environment**: Ensure proper ventilation in the workspace, remove debris, and avoid potential obstructions that may cause operational disturbances or safety hazards.
+
+**Parameter Settings**: Set the correct laser power, speed, focus, and other parameters based on material type, thickness, and desired cutting effect. This often requires some testing to determine the optimal parameters.
+
+**Focus Adjustment**: Maintain the proper focal length to ensure the laser beam accurately concentrates on the workpiece surface for optimal cutting results.
+
+**Monitoring and Maintenance**: Maintain supervision of equipment and operations during cutting. Regularly clean and maintain laser cutting equipment to ensure proper function and extend equipment life.
+
+**Post-Processing**: Upon completion of cutting, promptly handle waste and residues generated from cutting, and address the cut surface as needed to remove burrs or residual marks.
+
+**Training and Compliance**: Ensure operators have received proper training and strictly follow relevant operational guidelines and standards to prevent operational errors or safety risks.
+
+## 3 Attempt at spiral cutting
 
 - **"1.Open AutoCAD, click on the circle command.**
 
