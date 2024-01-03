@@ -1,7 +1,7 @@
-# <font color="#99CCFF">Banbu</font>
+# <font color="#99CCFF">Bambu</font>
 
-## 1 Download and open your Banbu
-- First, open your Banbu,and Create a new project.
+## 1 Download and open your Bambu
+- First, open your Bambu,and create a new project.
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/1.png" width = "800"/>
