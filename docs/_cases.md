@@ -195,11 +195,11 @@ Most of these can be found on Sparkfun, Amazon, or Digikey.
 **Step 6**: Wire Together Sensors and Plug Into Main Board
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/case2.8.png" width = "800"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/cas2.8.png" width = "800"/>
 </div>
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/case2.9.jpg" width = "800"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/case2.9.png" width = "800"/>
 </div>
 
 **Step 7**: Build Wooden Box/Case
