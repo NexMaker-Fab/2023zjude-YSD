@@ -40,23 +40,19 @@ Development environment is Arduino IDE.Get the code in GitHub. Can be designed a
 #include "Arduino_GFX_Library.h"
 #include "JpegFunc.h"
 
-
 // microSD card
 #define SD_SCK 12
 #define SD_MISO 13
 #define SD_MOSI 11
 #define SD_CS 10
 
-
 // I2S
 #define I2S_DOUT 19
 #define I2S_BCLK 20
 #define I2S_LRCK 46
 
-
 // TFT
 #define TFT_BL -1
-
 
 #define AUDIO_FILENAME_01 "/ChildhoodMemory.mp3"
 ```
