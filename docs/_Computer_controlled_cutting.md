@@ -77,7 +77,7 @@ Wood boards used for laser cutting need to be selected based on wood types suita
 </div>
 
 ***
-## 2 Design rules
+## 3 Design rules
 
 **Safety First**: Laser cutting involves high energy; operators must wear appropriate personal protective equipment such as goggles, protective clothing, etc. Ensure the work area is clear of unauthorized personnel and adhere to relevant safety protocols.
 
@@ -95,9 +95,9 @@ Wood boards used for laser cutting need to be selected based on wood types suita
 
 **Training and Compliance**: Ensure operators have received proper training and strictly follow relevant operational guidelines and standards to prevent operational errors or safety risks.
 
-## 3 Attempt at spiral cutting
+## 4 Attempt at spiral cutting
 
-- **"1.Open AutoCAD, click on the circle command.**
+- **1.Open AutoCAD, click on the circle command.**
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E4%B8%80.png" width = "800"/>
@@ -188,10 +188,57 @@ Wood boards used for laser cutting need to be selected based on wood types suita
 </div>
 
 ***
-## 3 Presentation
+## 5 Presentation
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%8D%81%E5%85%AD.jpg" width = "800"/>
 </div>
+
+***
+
+## 6 Case assemble with arduino
+**step1-Introduction**<br>
+Laser engraving a lampshade for led lights to create a shimmering effect
+
+**step2-Laser engraved triangles**<br>
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/20240103210045.jpg" width = "400"/>
+</div>
+
+**step3-Hot melt glue gun connecting triangle for lampshade**<br>
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/bce8e2499177ff56091fe80aa23c734.jpg"" width = "400"/>
+</div>
+
+**step4-Connection Circuit**<br>
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/f572ca3dfeef20a136b7bde6fb28117.jpg"" width = "400"/>
+</div>
+
+**step5-Code**<br>
+```HTML
+int LedPin=7;
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LedPin, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(LedPin, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(1000);                       // wait for a second
+  digitalWrite(LedPin, LOW);    // turn the LED off by making the voltage LOW
+  delay(1000);                       // wait for a second
+}
+```
+**step6-Presentation**<br>
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/GIF%202024-1-3%2020-58-55.gif"" width = "400"/>
+</div>
+
+This can be used as a light display for final project！
+***
+
 
 
