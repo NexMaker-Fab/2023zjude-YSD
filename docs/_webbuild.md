@@ -27,7 +27,7 @@ We used GitHub+Docsify to build the site. Docsify is a simple document site gene
 <br>
 
 <div align= 'center'>
-  <img src="https://github.com/erkoww/YSD_img/blob/main/img/add%20people.png?raw=true" width = "1000"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/admin.PNG" width = "1000"/>
 </div>
 
 ***
