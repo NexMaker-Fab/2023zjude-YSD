@@ -219,7 +219,21 @@ Then you can initialize it successfully.
 ***
 
 ### 3 Write the documents with markdown
-#### ① Title
+#### ① Header
+```HTML
+{
+  # First-Level Title
+  ## Second-Level Title
+  ### Third-Level Title
+}
+```
+
+- The effect is as follows：
+    # First-Level Title
+    ## Second-Level Title
+    ### Third-Level Title
+  
+#### ② Title
 - The `#` can be used to indicate 1-6 levels of headings, with `#` for a first level heading, `##` for a second level heading, and so on.
 - The sample code is as follows:
 
@@ -237,7 +251,7 @@ Then you can initialize it successfully.
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/markdown_title.png" width = "500"/>
 </div>
 
-#### ② Add an image
+#### ③ Add an image
 - Fill in the name of the image you want to display in `[ ]` and the address of the image in `( )`.
 - The sample code is as follows:
 
@@ -245,7 +259,7 @@ Then you can initialize it successfully.
 ![logo of fusion360](https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/fusion360_logo.png)
 ```
 
-#### ③ Add a link
+#### ④ Add a link
 - Fill in the name of the link you want to display in `[ ]` and the link address in `( )`.
 - The sample code is as follows:
 
@@ -253,7 +267,7 @@ Then you can initialize it successfully.
 [Google Scholar](https://scholar.google.com/)
 ```
 
-#### ④ Italicize
+#### ⑤ Italicize
 - In Markdown, you can use an asterisk * or an underscore _ to italicize text. Just add one asterisk or underscore before and after the text you want to italicize.
 - The sample code is as follows:
 ```HTML
