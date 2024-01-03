@@ -254,8 +254,8 @@ Then you can initialize it successfully.
 ```
 
 #### ④ Italicize
--In Markdown, you can use an asterisk * or an underscore _ to italicize text. Just add one asterisk or underscore before and after the text you want to italicize.
--The sample code is as follows:
+- In Markdown, you can use an asterisk * or an underscore _ to italicize text. Just add one asterisk or underscore before and after the text you want to italicize.
+- The sample code is as follows:
 ```HTML
 Using asterisks: *This text will be italicized*
 ```
