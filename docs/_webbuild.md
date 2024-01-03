@@ -261,6 +261,18 @@ Using asterisks: *This text will be italicized*
 ```
 ***
 
+### 4 fold and file
+- We currently have the following sidebar code.However, there is an issue with the sidebar that prevents it from folding.
+
+```HTML
+
+```
+<div align= 'center'>
+  <img src="https://github.com/erkoww/YSD_img/blob/main/img/%E5%A4%8D%E5%88%B6%E9%93%BE%E6%8E%A5.png?raw=true" width = "1000"/>
+</div>
+
+
+
 ### Reference
 [过程教学](https://www.nexmaker.com/doc/1projectmanage/github&docsify.html)
 
