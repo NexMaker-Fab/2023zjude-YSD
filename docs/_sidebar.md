@@ -25,6 +25,8 @@
     * [Processing](_processing.md)
   * CNC
     * [CNC manufacture](_cnc.md)
+  * IoT and Interaction
+    * [IoT](_IOT.md)
 * FINAL PROJECT
   * [Initial Concept](_concept.md)
   * [Similar Cases](_cases.md)
