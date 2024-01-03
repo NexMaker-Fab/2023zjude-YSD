@@ -164,20 +164,20 @@ Most of these can be found on Sparkfun, Amazon, or Digikey.
 **Step 1**: Clean and Prepare Drawers
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/case2.4.png" width = "800"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/case2.4.jpg" width = "800"/>
 </div>
 
 - Clean the whole thing. Drill holes for each sensor, cut the felt and glue it to the bottom of the drawer.
 **Step 2**: Build Speaker Enclosures
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/case2.5.png" width = "800"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/case2.5.jpg" width = "800"/>
 </div>
 
 **Step 3**: Create Main Board and Sensor Array Boards
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/case2.6.png" width = "800"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/case2.6.jpg" width = "800"/>
 </div>
 
 **Step 4**: Load Audio Onto SD Card, Tweak Arduino Code
@@ -189,7 +189,7 @@ Most of these can be found on Sparkfun, Amazon, or Digikey.
 **Step 5**: Install Electronics
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/case2.7.png" width = "800"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/case2.7.jpg" width = "800"/>
 </div>
 
 **Step 6**: Wire Together Sensors and Plug Into Main Board
@@ -199,7 +199,7 @@ Most of these can be found on Sparkfun, Amazon, or Digikey.
 </div>
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/case2.9.png" width = "800"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/case2.9.jpg" width = "800"/>
 </div>
 
 **Step 7**: Build Wooden Box/Case
