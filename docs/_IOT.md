@@ -74,6 +74,56 @@ First, we are going to connect XIAO ESP32C3 to the computer, connect an LED to t
 
 #### 2.2.2 Software setup
 
+- Step 1. Download and Install the latest version of Arduino IDE according to your operating system.
+
+- Step 3. Add ESP32 board package to your Arduino IDE.
+
+<div align="center">
+<img src="" width = "800"/>
+</div>
+
+<div align="center">
+<img src="" width = "800"/>
+</div>
+
+- Step 4. Select your board and port
+
+<div align="center">
+<img src="" width = "800"/>
+</div>
+
+<div align="center">
+<img src="" width = "800"/>
+</div>
+
 #### 2.2.3 Blink the LED
 
+The code to light up the LED is as follows:
+```C#
+// define led according to pin diagram
+int led = D10;
+
+void setup() {
+  // initialize digital pin led as an output
+  pinMode(led, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(led, HIGH);   // turn the LED on 
+  delay(1000);               // wait for a second
+  digitalWrite(led, LOW);    // turn the LED off
+  delay(1000);               // wait for a second
+}
+```
+Click the Upload button to upload the code to the board
+
+<div align="center">
+<img src="" width = "800"/>
+</div>
+
+LED has been lit up
+
+<div align="center">
+<img src="" width = "800"/>
+</div>
 
