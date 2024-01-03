@@ -54,7 +54,7 @@ First, we are going to connect XIAO ESP32C3 to the computer, connect an LED to t
 
 #### 2.2.1 Hardware setup
 
-> ! Some USB cables can only supply power and cannot transfer data. If you don't have a USB cable or don't know if your USB cable can transmit data, you can check Seeed USB Type-C support USB 3.1.
+!> Some USB cables can only supply power and cannot transfer data. If you don't have a USB cable or don't know if your USB cable can transmit data, you can check Seeed USB Type-C support USB 3.1.
 
 - 1 x Seeed Studio XIAO ESP32C3
 - 1 x Computer
@@ -127,7 +127,7 @@ LED has been lit up
 <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/GIF%202024-1-3%2015-57-46.gif" width = "800"/>
 </div>
 
->!If the following error occurs, you can refer to:
+!> If the following error occurs, you can refer to:[https://blog.csdn.net/weixin_43034503/article/details/128733085](https://blog.csdn.net/weixin_43034503/article/details/128733085#:~:text=%E5%B0%86Arduino,IDE%E6%9B%B4%E6%96%B0%E5%88%B0%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC%EF%BC%8C%E7%9B%B4%E6%8E%A5%E5%9C%A8%E2%80%9C%E5%BC%80%E5%8F%91%E6%9D%BF%E7%AE%A1%E7%90%86%E5%99%A8%E2%80%9D%E8%BE%93%E5%85%A5esp32%EF%BC%8C%E7%82%B9%E5%87%BB%E2%80%9C%E5%AE%89%E8%A3%85%E2%80%9D%EF%BC%8C%E5%AE%8C%E6%88%90%E5%90%8E%E5%8D%B3%E5%8F%AF%E4%BD%BF%E7%94%A8%E3%80%82)
 
 <div align="center">
 <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/e3b8273c234bab070babfc81e4bee53.png" width = "800"/>
