@@ -12,7 +12,7 @@ The Internet of Things digitizes the real world and has a wide range of applicat
 
 The Internet of Things is an emerging area of attention from all walks of life, but security is the main factor questioned by all walks of life, the main question is that the Internet of Things technology is developing rapidly, but the security challenges involved, and the regulatory changes that may be needed, are currently quite lacking.
 
-## 2 Use arduino to program NodeMcu and control LED
+## 2 Use arduino to program ESP32C3 and control LED
 
 ### 2.1 Hardware overview
 
