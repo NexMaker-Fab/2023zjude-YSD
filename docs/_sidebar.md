@@ -1,7 +1,3 @@
-<div>
-  <img src="https://github.com/erkoww/YSD_img/blob/main/img/1ogo.png?raw=true" width="200"/>
-</div>
-
 * TEAM INTRODUCE
   * [Team Introduction](teamintro.md)
   * [Feng Yujuan ๑ᵒᯅᵒ๑ ](FYJ.md)
