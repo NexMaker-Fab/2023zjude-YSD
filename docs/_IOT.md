@@ -177,4 +177,14 @@ LED has been lit up
 
 ## 4 Use Aliyun-IOT to get ESP32C3 information and then control ESP32C3
 
+We use AliyunIoTSDK.h to connect to the Alibaba Cloud IoT platform. AliyunIoTSDK is a library for Arduino, which can be found in the Arduino application store. Here is [the open-source project address](https://github.com/xinyu198736/arduino-aliyun-iot-sdk) based on the AliyunIoTSDK library.
 
+Arduino requires downloading and installing the ArduinoJson, Crypto, PubSubClient, and ESP8266 libraries. These library files can be downloaded directly from the Arduino IDE.
+
+<div align="center">
+<img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-01-03%20181455.png" width = "800"/>
+</div>
+
+<div align="center">
+<img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-01-03%20181350.png" width = "800"/>
+</div>
