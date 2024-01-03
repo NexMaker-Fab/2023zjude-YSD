@@ -133,3 +133,48 @@ LED has been lit up
 <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/e3b8273c234bab070babfc81e4bee53.png" width = "800"/>
 </div>
 
+## 3 Connect ESP32C3 with Aliyun-IOT
+
+- Log in to the IoT platform console.
+
+
+- On the Instance Overview page, click on the Public Instance.
+
+- In the left-hand navigation pane, select Device Management > Products, then click on Create Product.
+
+- On the New Product page, after setting the following information, click on Confirm.
+
+- On the Create Product page, click on Go to Add.
+
+<div align="center">
+<img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/20240103180652.png" width = "800"/>
+</div>
+
+<div align="center">
+<img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/20240103180910.png" width = "800"/>
+</div>
+
+- In the Device List tab, click on Add Device
+<div align="center">
+<img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/20240103180938.png" width = "800"/>
+</div>
+
+<div align="center">
+<img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/20240103181019.png" width = "800"/>
+</div>
+
+- After successfully creating the device, in the pop-up dialog box for completion, click on Go to View or Copy Device Certificates to obtain the device certificates.
+
+<div align="center">
+<img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/20240103181108.png" width = "800"/>
+</div>
+
+- Device certificates include ProductKey, DeviceName, and DeviceSecret. These certificates are crucial credentials for subsequent communication between the device and the IoT platform, so ensure they are securely stored.
+
+<div align="center">
+<img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/20240103181156.png" width = "800"/>
+</div>
+
+## 4 Use Aliyun-IOT to get ESP32C3 information and then control ESP32C3
+
+
