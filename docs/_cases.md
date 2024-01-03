@@ -1,4 +1,4 @@
-# <font color="#99CCFF">Similar Cases</font>
+# <font color="#99CCFF">Case Study</font>
 
 ## 1 DIY E-Album
 
@@ -118,10 +118,19 @@ void Task_TFT(void *pvParameters) // 这是一个任务。
 
 ## 2 Audio Memory Chest
 
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/case2.1.png" width = "800"/>
+</div>
+
 ### 2.1 Introduction 
 The author places small objects, souvenirs collected around the world, and sounds captured with an mp3 recorder (market, street sounds, music, etc.) in the memory box, and every time a drawer is opened, a random audio file recorded in that location is played to evoke the memory of the time.
 
 ### 2.2 Parts List
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/case2.3.png" width = "800"/>
+</div>
+
 **Electronics**:
 Most of these can be found on Sparkfun, Amazon, or Digikey.
 - Arduino Pro Mini
@@ -153,9 +162,52 @@ Most of these can be found on Sparkfun, Amazon, or Digikey.
 
 ### Production process
 **Step 1**: Clean and Prepare Drawers
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/case2.4.png" width = "800"/>
+</div>
+
+- Clean the whole thing. Drill holes for each sensor, cut the felt and glue it to the bottom of the drawer.
 **Step 2**: Build Speaker Enclosures
-**Step 3**: Build Speaker Enclosures
-**Step 4**: Create Main Board and Sensor Array Boards
-**Step 5**: Load Audio Onto SD Card, Tweak Arduino Code
-**Step 6**: Install Electronics
-**Step 7**: Wire Together Sensors and Plug Into Main Board
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/case2.5.png" width = "800"/>
+</div>
+
+**Step 3**: Create Main Board and Sensor Array Boards
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/case2.6.png" width = "800"/>
+</div>
+
+**Step 4**: Load Audio Onto SD Card, Tweak Arduino Code
+- Using an SD adaptor, open a microSD card to your computer.
+- Make a folder for each drawer on the top level of the card. Number them sequentially starting with 1.
+- Select the mp3s you want to play when each drawer opens, and drag them into the drawer's folder. The code will cycle through them randomly when the drawer is opened.
+- Rename the files in each folder so they start with sequential numbers: (001_file.mp3, 002_file.mp3, etc)
+- Eject the card and insert into serial mp3 player.
+**Step 5**: Install Electronics
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/case2.7.png" width = "800"/>
+</div>
+
+**Step 6**: Wire Together Sensors and Plug Into Main Board
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/case2.8.png" width = "800"/>
+</div>
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/case2.9.png" width = "800"/>
+</div>
+
+**Step 7**: Build Wooden Box/Case
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/case2.10.png" width = "800"/>
+</div>
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img@main/img/case2.2.png" width = "800"/>
+</div>
