@@ -35,9 +35,70 @@ Development environment is Arduino IDE.Get the code in GitHub. Can be designed a
 
 - Declaration uses file and pin definitions to enable the program to successfully drive the chip to read images and music resources from the SD card.
 
+```C++
+#include "Audio.h"
+#include "Arduino_GFX_Library.h"
+#include "JpegFunc.h"
+
+
+// microSD卡
+#define SD_SCK 12
+#define SD_MISO 13
+#define SD_MOSI 11
+#define SD_CS 10
+
+
+// I2S
+#define I2S_DOUT 19
+#define I2S_BCLK 20
+#define I2S_LRCK 46
+
+
+// TFT
+#define TFT_BL -1
+
+
+#define AUDIO_FILENAME_01 "/ChildhoodMemory.mp3"
+```
+
 - Initialize screen parameters, The screen uses the ST7701 driver.
 
+```C++
+Arduino_ST7701_RGBPanel *gfx = 新的Arduino_ST7701_RGBPanel（
+总线，GFX_NOT_DEFINED /* RST */，0 /*旋转*/，
+true /* IPS */, 480 /* 宽度 */, 480 /* 高度 */,
+st7701_type1_init_operations，sizeof（st7701_type1_init_operations），
+true /* BGR */);
+```
+
 - Set music playback and image display loop tasks.
+
+```C++
+void Task_TFT(void *pvParameters) // 这是一个任务。
+{
+ while (1) // 任务永远不会返回或退出。
+ {
+ Serial.println(image_list[image_index % IMAGE_COUNT]);
+ jpegDraw(image_list[image_index++ % IMAGE_COUNT].c_str()), jpegDrawCallback, true, 0, 0, gfx->width(), gfx->height());
+
+  vTaskDelay（2000）；
+  }
+ }
+
+  void Task_Audio(void *pvParameters) // 这是一个任务。
+ {
+  而（1）
+  audio.loop（）；
+ }
+
+ void audio_eof_mp3（const char *info）
+ { // 文件结束
+ Serial.print("eof_mp3 ");
+ Serial.println（信息）；
+
+ audio.connecttoFS(SD, AUDIO_FILENAME_01); //"/ChildhoodMemory.mp3"
+}
+```
 
 **Step 3**: Test and Result
 
