@@ -160,7 +160,7 @@ Most of these can be found on Sparkfun, Amazon, or Digikey.
 - 3/4 inch birch plywood for external case
 - screw-on legs for external case
 
-### Production process
+### 2.3 Production process
 **Step 1**: Clean and Prepare Drawers
 
 <div align="center">
