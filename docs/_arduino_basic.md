@@ -50,7 +50,9 @@ The code can be downloaded from here: https://github.com/DIY-Machines/SmartPlant
 
 - Upload the code.
 <br>
-
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E4%B8%8A%E4%BC%A0.png" width=400/>
+</div>
 - Debug, run and test.
 <br>
 
