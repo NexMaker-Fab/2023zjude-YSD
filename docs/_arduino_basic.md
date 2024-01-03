@@ -93,7 +93,7 @@ void loop()
 }
 ```
 ### 2.4 Video presentation
-***
+
 ![](https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/YSD%20-small-original.gif)
 ## Reference
 - 《Arduino权威指南》, Micbael Margolis, 杨昆云（译）
