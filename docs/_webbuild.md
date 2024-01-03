@@ -265,13 +265,53 @@ Using asterisks: *This text will be italicized*
 - We currently have the following sidebar code.However, there is an issue with the sidebar that prevents it from folding.
 
 ```HTML
-
-```
-<div align= 'center'>
-  <img src="https://github.com/erkoww/YSD_img/blob/main/img/%E5%A4%8D%E5%88%B6%E9%93%BE%E6%8E%A5.png?raw=true" width = "1000"/>
+<div>
+  <img src="https://github.com/erkoww/YSD_img/blob/main/img/1ogo.png?raw=true" width="200"/>
 </div>
 
+* TEAM INTRODUCE
+  * [Team Introduction](teamintro.md)
+  * [Feng Yujuan ๑ᵒᯅᵒ๑ ](FYJ.md)
+  * [Guo Kewei| ᐕ)⁾⁾](GKW.md)
+  * [Lu Yue ⌓‿⌓ ](LY.md)
+  * [Wang Shuyi oi-io ](WSY.md)
+  * [Zhao Kayu !_! ](ZKY.md)
+* COURSE PRACTICE
+  * Project Management
+    * [Web Page Construction](_webbuild.md)
+  * CAD
+    * [Fusion 360](_fusion360.md)
+  * Arduino
+    * [Arduino Basic](_arduino_basic.md)
+    * [Arduino Input & Output](_arduino_input_output.md)
+    * [Case Study](_cases.md)
+  * CNC
+    * [CNC manufacture](_cnc.md)
+  * 3D Printing
+    * [Bambu](_Bambu.md)
+  * Computer controlled cutting
+    * [Laser cutting](_Computer_controlled_cutting.md)
+  * Interface Application Programming
+    * [Processing](_processing.md)
+  * IoT and Interaction
+    * [IoT](_IOT.md)
+* FINAL PROJECT
+  * [Initial Concept](_concept.md)
+```
 
+<div align= 'center'>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/%E4%BE%A7%E8%BE%B9%E6%A0%8F%E6%8A%98%E5%8F%A0%E9%97%AE%E9%A2%98.PNG" width = "1000"/>
+</div>
+
+- We are attempting to revise the code so that the sidebar can be folded.
+
+```HTML
+
+```
+
+<div align= 'center'>
+  <img src="" width = "1000"/>
+</div>
 
 ### Reference
 [过程教学](https://www.nexmaker.com/doc/1projectmanage/github&docsify.html)
