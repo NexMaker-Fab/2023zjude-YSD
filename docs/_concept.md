@@ -20,7 +20,7 @@ Use arduino to create an interactive three-dimensional chess board, divided into
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/c004226ed391483bae3b52fe38f651f.png" width = "600"/>
 </div>
 
-**The selection of a special checkerboard grid is based on a map of the attractions of Dongqian Lake, requiring that the selected attractions be both representative and evenly dispersed around the scenic area. Therefore, Tao Gongguan, Ningbo Safari Park, Xiashui Wetland Park, Xiayu Cicada Temple and Hanling Old Street were selected.**
+**The selection of a special checkerboard grid is based on a map of the attractions of Dongqian Lake, requiring that the selected attractions be both representative and evenly dispersed around the scenic area. Therefore, Taogong Island, Ningbo Safari Park, Xiashui Wetland Park, Xiayu Cicada Temple and Hanling Old Street were selected.**
 
 # Module composition
 **Master: arduino UNO (with expansion board) <br> 
