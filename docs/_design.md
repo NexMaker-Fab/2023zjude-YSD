@@ -9,15 +9,23 @@ This design aims to provide players with an immersive experience into the natura
 ## 3 Element extraction
 
 ## 4 Special Chess Piece Design
-
-### 4.1 Ningbo Wildlife Park
+**After brainstorming and discussion, we chose Ningbo Safari Park, Taogong Island, Xiashui Wetland Park, Hanling Old Street , and Xiayu Cicada Temple as the main attractions to showcase.**
+### 4.1 Ningbo Safari Park
 - **Lion Model**: Simulates the movement of a lion model to showcase its majesty.
 - **Egret Model**: Represents Dongqian Lake's egrets, showcasing the ecological diversity.
 - **Swinging Monkey Model**: Simulates a swinging monkey on a tree, adding a playful ambiance.
-### 4.2
-### 4.3
-### 4.4
-### 4.5
+
+### 4.2 Taogong Island
+- **Fishing Boat Model**: Moves a fishing boat model, representing the fishing culture of Dongqian Lake.
+### 4.3 Xiashui Wetland Park
+- **Floral Model**: Moves left and right, representing the abundant vegetation of the wetland, enhancing the natural ambiance.
+### 4.4 Hanling Old Street
+- **Swinging Arms of Buddha Statue**: Represents a Zen temple, simulating the swinging arms of a Buddha statue, presenting a serene and tranquil atmosphere.
+- **Bell and Drum Sounds**: Make the sound of a bell and drum sounds to create a lively atmosphere in the old street.
+### 4.5 Xiayu Cicada Temple
+-  **Archway with Lighting Effect**: Illuminates the archway model using LED lights, creating an old street's nighttime ambiance.
+- **Wooden Fish and Chanting Sounds**: Make the sound of a wooden fish and chanting sounds to create a solemn and dignified atmosphere in Buddhist temples.
+
 ## 5 Interaction Style
 - **Movement Effects**: Control model movement through stepper motors or servos, simulating animal activities, boat movement, and swaying flora.
 - **Lighting Effects**: Illuminates models on special squares with LED lights for enhanced visual effects.
