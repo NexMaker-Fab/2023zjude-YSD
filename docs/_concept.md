@@ -33,7 +33,3 @@ Mallard swinging around: Servo ✖️1  <br>
 Other animals appear: Tiller✖️2 <br> 
 Temple building rising: Tiller✖️1 + Gears <br> 
 Wetland plants appear: Tiller✖️3 + Gears** 
-
-# Code
-# In-kind presentation
-# Video Presentation
