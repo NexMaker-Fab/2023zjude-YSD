@@ -11,11 +11,9 @@ This design aims to provide players with an immersive experience into the natura
 ## 2 User Experience and Narrative
 - Users will explore the unique landmarks and cultural elements of the Dongqian Lake Scenic Area through the movement of chess pieces.
 - Through model movements, lighting, and sound effects, create an immersive experience, allowing players to feel the vibrant landscapes of Dongqian Lake.
-## 3 Element extraction
-
-## 4 Special Chess Piece Design
+## 3 Special Chess Piece Design
 **After brainstorming and discussion, we chose Ningbo Safari Park, Taogong Island, Xiashui Wetland Park, Hanling Old Street , and Xiayu Cicada Temple as the main attractions to showcase.**
-### 4.1 Ningbo Safari Park
+### 3.1 Ningbo Safari Park
 - **Lion Model**: Simulates the movement of a lion model to showcase its majesty.
 
 <div align= 'center'>
@@ -34,17 +32,17 @@ This design aims to provide players with an immersive experience into the natura
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/monkey.jpg" width = "300"/>
 </div>
 
-### 4.2 Taogong Island
+### 3.2 Taogong Island
 - **Fishing Boat Model**: Moves a fishing boat model, representing the fishing culture of Dongqian Lake.
 
 <div align= 'center'>
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/boat.jpg" width = "400"/>
 </div>
 
-### 4.3 Xiashui Wetland Park
+### 3.3 Xiashui Wetland Park
 - **Floral Model**: Moves left and right, representing the abundant vegetation of the wetland, enhancing the natural ambiance.
 
-### 4.4 Hanling Old Street
+### 3.4 Hanling Old Street
 - **Archway with Lighting Effect**: Illuminates the archway model using LED lights, creating an old street's nighttime ambiance.
  <style>
     .image-container {
@@ -62,16 +60,16 @@ This design aims to provide players with an immersive experience into the natura
   </div>
 
 - **Bell and Drum Sounds**: Make the sound of a bell and drum sounds to create a lively atmosphere in the old street.
-### 4.5 Xiayu Cicada Temple
+### 3.5 Xiayu Cicada Temple
 - **Swinging Arms of Buddha Statue**: Represents a Zen temple, simulating the swinging arms of a Buddha statue, presenting a serene and tranquil atmosphere.
 
 <div align= 'center'>
-  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/20240108061813.png"" width = "400"/>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/20240108062605.png" width = "400"/>
 </div>
 
 - **Wooden Fish and Chanting Sounds**: Make the sound of a wooden fish and chanting sounds to create a solemn and dignified atmosphere in Buddhist temples.
 
-## 5 Interaction Style
+## 4 Interaction Style
 - **Movement Effects**: Control model movement through stepper motors or servos, simulating animal activities, boat movement, and swaying flora.
 - **Lighting Effects**: Illuminates models on special squares with LED lights for enhanced visual effects.
 - **Sound Effects**: Play natural sounds, boat noises, or street ambiance through speakers to amplify the atmosphere.
