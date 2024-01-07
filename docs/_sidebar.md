@@ -30,3 +30,5 @@
     * [IoT](_IOT.md)
 * FINAL PROJECT
   * [Initial Concept](_concept.md)
+  * [Concept Design](_design.md)
+  * [Production Process](_process.md)
