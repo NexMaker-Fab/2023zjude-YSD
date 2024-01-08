@@ -41,6 +41,10 @@ Our device is mainly divided into two parts: a horizontal chessboard and a verti
 
 #### 1.1.2 Detail display
 
+<div class="image-container">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/IMG_20240109_002744.jpg" alt="Image 1">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/IMG_20240109_002728.jpg" alt="Image 2">
+</div>
 
 ### 1.2 vertical background
 
@@ -51,7 +55,15 @@ Our device is mainly divided into two parts: a horizontal chessboard and a verti
   <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/bg02.png" alt="Image 2">
 </div>
 
-- 
+- Using various materials, construct scattered elements such as servos and LEDs on the grass to simulate dynamic elements in different locations.
+- Use disposable chopsticks and cardboard to create various plants such as trees and shrubs as backgrounds, and use plastic clay to pinch egrets, monkeys, and lions and color them as interactive objects.
+- Create a bouquet using cardboard as an interactive object.
+- The symbolic memorial archway of "Hanling Old Street" was made with cardboard and wooden chopsticks, and LED lights were pasted on the back as interactive objects.
+- Cut out the Guanyin statue printed on copperplate paper and use the "arm" as the interactive object to stick it onto the fan blades of the servo, allowing it to sway left and right.
+
+<div align= 'center'>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/bg.jpg" width = "500"/>
+</div>
 
 ## 2 Interactive hardware construction
 
@@ -104,11 +116,55 @@ void loop(){
 
 ### 2.2 Movement Effects
 
+
 #### 2.2.1 horizontal movement
+- 
+
+- **Example Code**
+
+!> The initial position and rotation angle of the servo need to be continuously adjusted during actual us!
+
+!> Pay attention to using a 180 degree servo motor.
+
+```C++
+# define sensor 2 //压力传感器连接数字引脚
+const int my_servo = 9;
+int val == 1; //记录压力传感器状态
+Servo.myservo;
+
+void setup(){
+  // put your setup code here, to run once:
+
+  Serial.begin(9600);
+
+  pinMOde(sensor, INPUT);
+  myservo.attach(my_servo);
+  myservo.write(0); //舵机位置初始化
+  delay(10);
+}
+
+void loop(){
+  // put your main code here, to run repeatedly:
+
+  val = digitalRead(sensor); //读取压力传感器数值
+  Serial.println(val);
+
+  if(val == 0){
+    myservo.write(180);
+    delay(1000);
+  }
+  else{
+    myservo.write(0);
+    delay(1000);
+  }
+}
+```
 
 #### 2.2.2 swing
 
 ### 2.3 Lighting Effects
+
+### 2.4 Complete Code
 
 
 
