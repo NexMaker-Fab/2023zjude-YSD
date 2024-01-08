@@ -165,7 +165,191 @@ void loop(){
 ### 2.3 Lighting Effects
 
 ### 2.4 Complete Code
+```c++
+#include <Servo.h> 
 
+//zoo
+#define zoo 2
+int zoo_val = 1;
+const int monkey_servo = 10;
+const int lion_servo = 9;
+const int bird_servo = 11;
+int pos0 = 0;
+unsigned long startTime;
+Servo monkeyservo;
+Servo lionservo;
+Servo birdservo; 
+
+//street
+#define street 3
+#define street_LED 5
+int street_val = 1;
+
+//guanyin
+#define guanyin 4
+#define halo 5
+int guanyin_val = 1;
+int pos2 = 0;
+const int guanyin_servo = 12;
+Servo guanyinservo;
+
+//boat
+#define boat 6
+int boat_val = 1;
+const int boat_servo = 13;
+Servo boatservo;
+
+//wet land
+#define wetland 7
+int pos = 0;
+int wetland_val = 1;
+const int plant_servo = 8;
+Servo plantservo;
+
+void setup() {
+  // put your setup code here, to run once:
+
+  Serial.begin(9600);
+  
+  //zoo
+  pinMode(zoo, INPUT);
+  monkeyservo.attach(monkey_servo);
+  monkeyservo.write(0);
+  delay(10);
+  lionservo.attach(lion_servo);
+  lionservo.write(180);
+  delay(10);
+  birdservo.attach(bird_servo);
+  birdservo.write(180);
+  delay(10);
+
+  //street
+  pinMode(street, INPUT);
+  pinMode(street_LED, OUTPUT);
+
+  //guanyin
+  pinMode(guanyin, INPUT);
+  //pinMode(halo, OUTPUT);
+  guanyinservo.attach(guanyin_servo);
+  guanyinservo.write(0);
+  delay(10);
+
+  //boat
+  pinMode(boat, INPUT);
+  boatservo.attach(boat_servo);
+  boatservo.write(0);
+  delay(10);
+
+  //wet land
+  pinMode(wetland, INPUT);
+  plantservo.attach(plant_servo);
+  plantservo.write(0);
+  delay(10);
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+    //animals' motion
+    zoo_val = digitalRead(zoo);
+    //Serial.println(zoo_val);
+    if(zoo_val == 0)
+    {
+      lionservo.write(0);
+      delay(1000);
+      birdservo.write(0);
+      startTime = millis();
+      if(millis()-startTime < 8000){
+        for (pos0 = 0; pos0 <= 135; pos0 += 1) {
+        monkeyservo.write(pos0);
+        delay(15);					
+        }
+        for (pos0 = 135; pos0 >= 0; pos0 -= 1) {
+        monkeyservo.write(pos0);
+        delay(15); 					
+        }
+      }
+      else{
+        monkeyservo.write(0);
+        delay(10);
+      }
+      //monkeyservo.write(180);
+      delay(10);
+    }
+    else
+    {
+      monkeyservo.write(0);
+      lionservo.write(180);
+      birdservo.write(180);
+      delay(10);
+    }
+
+    //street
+    street_val = digitalRead(street);
+    //Serial.println(street_val);
+    if(street_val == 0){
+      digitalWrite(street_LED, HIGH);
+      delay(10);
+    }
+    else{
+      digitalWrite(street_LED, LOW);
+      delay(10);
+    }
+    
+    //guanyin
+    guanyin_val = digitalRead(guanyin);
+    Serial.println(guanyin_val);
+    if(guanyin_val == 0){
+      //digitalWrite(halo, HIGH);
+      //guanyinservo.write(180);
+      for (pos2 = 0; pos2 <= 45; pos2 += 1) {
+        guanyinservo.write(pos2);
+        delay(15);					
+        }
+      for (pos2 = 45; pos2 >= 0; pos2 -= 1) {
+        guanyinservo.write(pos2);
+        delay(15); 					
+        }
+      delay(10);
+    }
+    else{
+      //digitalWrite(halo, LOW);
+      guanyinservo.write(0);
+      delay(10);
+    }
+
+    //boat
+    boat_val = digitalRead(boat);
+    if(boat_val == 0){
+      boatservo.write(180);
+    }
+    else{
+      boatservo.write(0);
+      delay(10);
+    }
+
+    //wet land
+    wetland_val = digitalRead(wetland);
+    //Serial.println(wetland_val);
+    if(wetland_val == 0){
+      for (pos = 0; pos <= 180; pos += 1) {
+        plantservo.write(pos);
+        delay(15);					
+      }
+      for (pos = 180; pos >= 0; pos -= 1) {
+        plantservo.write(pos);
+        delay(15); 					
+      }
+    }
+    else{
+      plantservo.write(0);
+      delay(10);
+    }
+}
+
+
+```
 
 
 ## 3 Video demonstration
