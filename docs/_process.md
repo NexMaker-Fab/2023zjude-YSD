@@ -1,10 +1,57 @@
 # Production Process
+
+<style>
+  .image-container {
+    display: flex; /* 使用 Flex 布局 */
+  }
+  .image-container img {
+    width: 50%; /* 设置图片宽度为容器的一半 */
+    height: auto; /* 让高度自适应保持比例 */
+  }
+</style>
+
 ## 1 Chessboard construction
 Our device is mainly divided into two parts: a horizontal chessboard and a vertical background.
 ### 1.1 horizontal chessboard
+- The chessboard is made according to the tourist map of Dongqian Lake Scenic Area, using a realistic style, with a focus on five locations including Ningbo Safari Park, Taogong Island, Xiashui Wetland Park, Hanling Old Street , and Xiayu Cicada Temple.
+
+<div align= 'center'>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/c004226ed391483bae3b52fe38f651f.png" width = "500"/>
+</div>
+
+#### 1.1.1 Process
+
+- Carve the shape of Dongqian Lake on the foam board
+
+<div align= 'center'>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/curve.png" width = "500"/>
+</div>
+
+- Pave the lawn and slate road, and use water feature cream to create a lake effect
+
+<div align= 'center'>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/makewater.gif" width = "500"/>
+</div>
+
+- Add some details
+
+<div align= 'center'>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/stone.jpg" width = "500"/>
+</div>
+
+#### 1.1.2 Detail display
+
 
 ### 1.2 vertical background
+
 - The artistic style reference for the background section is as follows：
+
+<div class="image-container">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/bg01.png" alt="Image 1">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/bg02.png" alt="Image 2">
+</div>
+
+- 
 
 ## 2 Interactive hardware construction
 
@@ -57,6 +104,12 @@ void loop(){
 
 ### 2.2 Movement Effects
 
+#### 2.2.1 horizontal movement
+
+#### 2.2.2 swing
+
 ### 2.3 Lighting Effects
+
+
 
 ## 3 Video demonstration
