@@ -47,20 +47,21 @@ The Taogong Island Scenic Area is located 8 kilometers east of Ningbo City. It i
 ### 3.4 Hanling Old Street (韩岭老街)
 Hanling Village is a well preserved and typical ancient water town in eastern Zhejiang. A clear stream surrounds the entire village, with picturesque green mountains on either side. The vast scenery of Nanhu Lake in Yandu, the ancient and vicissitudes of a century old street, the winding streets and alleys, the lush green farmlands, and the rafters, corridors, curves, beams, courtyards, stone paths, ancient bridges, and wells of many traditional houses all reflect the erosion of time and the traces left by history, presenting a solemn and rustic atmosphere, making people feel that time flows back here and intoxicated by the beautiful scenery of the water town and ancient village.
 - **Archway with Lighting Effect**: Illuminates the archway model using LED lights, creating an old street's nighttime ambiance.
- <style>
-    .image-container {
-      display: flex; /* 使用 Flex 布局 */
-    }
 
-    .image-container img {
-      width: 50%; /* 设置图片宽度为容器的一半 */
-      height: auto; /* 让高度自适应保持比例 */
-    }
-  </style>
+<style>
+  .image-container {
+    display: flex; /* 使用 Flex 布局 */
+  }
+
+  .image-container img {
+    width: 50%; /* 设置图片宽度为容器的一半 */
+    height: auto; /* 让高度自适应保持比例 */
+  }
+</style>
 <div class="image-container">
-    <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/20240108061813.png" alt="Image 1">
-    <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/20240108061715.png" alt="Image 2">
-  </div>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/20240108061813.png" alt="Image 1">
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/20240108061715.png" alt="Image 2">
+</div>
 
 - **Bell and Drum Sounds**: Make the sound of a bell and drum sounds to create a lively atmosphere in the old street.
 ### 3.5 Xiayu Cicada Temple (霞屿禅寺)
