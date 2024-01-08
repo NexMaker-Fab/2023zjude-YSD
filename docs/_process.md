@@ -86,7 +86,7 @@ There are two ways for pressure sensors to read, namely **digital input** and **
 ```C++
 # define sensor 2 //压力传感器连接数字引脚
 # define LED 3
-int val == 1; //记录压力传感器状态
+int val = 1; //存放压力传感器状态
 
 void setup(){
   // put your setup code here, to run once:
@@ -118,15 +118,86 @@ void loop(){
 
 
 #### 2.2.1 horizontal movement
-- 
+- In the device, some interactive objects need to achieve horizontal motion.
+- Choose to use a servo to achieve horizontal movement. Due to the circular motion of the servo, a gear mechanism as shown in the figure is required to achieve horizontal motion.
+
+<div align= 'center'>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/chilun.jpg" width = "500"/>
+</div>
+
+- **Implementation Effect**
+
+<div align= 'center'>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/GIF%202024-1-9%201-01-22.gif" width = "500"/>
+</div>
 
 - **Example Code**
 
 !> The initial position and rotation angle of the servo need to be continuously adjusted during actual us!
 
-!> Pay attention to using a 180 degree servo motor.
+!> Pay attention to using a 180 degree servo motor！
 
 ```C++
+#include <Servo.h> 
+
+# define sensor 2 //压力传感器连接数字引脚
+const int my_servo = 9;
+int val = 1; //存放压力传感器状态
+int pos = 0; //存放舵机角度
+Servo.myservo;
+
+void setup(){
+  // put your setup code here, to run once:
+
+  Serial.begin(9600);
+
+  pinMOde(sensor, INPUT);
+  myservo.attach(my_servo);
+  myservo.write(0); //舵机位置初始化
+  delay(10);
+}
+
+void loop(){
+  // put your main code here, to run repeatedly:
+
+  val = digitalRead(sensor); //读取压力传感器数值
+  Serial.println(val);
+
+  if(val == 0){
+    for (pos = 0; pos <= 45; pos += 1) {
+      myservo.write(pos);
+      delay(15);					
+    }
+    for (pos = 45; pos >= 0; pos -= 1) {
+      myservo.write(pos);
+      delay(15); 					
+    }
+    delay(10);
+  }
+  else{
+    myservo.write(0);
+    delay(1000);
+  }
+}
+```
+
+#### 2.2.2 swing
+- In the device, some interactive objects need to achieve swinging, such as the monkey and the Guanyin statues.
+- During this process, the servo needs to rotate back and forth within a certain angle range.
+
+- **Implementation Effect**
+
+<div align= 'center'>
+  <img src="https://cdn.jsdelivr.net/gh/erkoww/YSD_img/img/GIF%202024-1-9%201-23-57.gif" width = "500"/>
+</div>
+
+- **Example Code**
+
+!> The initial position and rotation angle of the servo need to be continuously adjusted during actual us!
+
+```C++
+#include <Servo.h> 
+
 # define sensor 2 //压力传感器连接数字引脚
 const int my_servo = 9;
 int val == 1; //记录压力传感器状态
@@ -160,11 +231,44 @@ void loop(){
 }
 ```
 
-#### 2.2.2 swing
-
 ### 2.3 Lighting Effects
+- In the device, some interactive objects interact by lighting up LEDs.
+
+- **Example Code**
+
+```C++
+# define sensor 2 //压力传感器连接数字引脚
+# define LED 3
+int val = 1; //存放压力传感器状态
+
+void setup(){
+  // put your setup code here, to run once:
+
+  Serial.begin(9600);
+
+  pinMOde(sensor, INPUT);
+  pinMode(LED, OUTPUT);
+}
+
+void loop(){
+  // put your main code here, to run repeatedly:
+
+  val = digitalRead(sensor); //读取压力传感器数值
+  Serial.println(val);
+
+  if(val == 0){
+    digitalWrite(LED, HIGH);
+    delay(1000);
+  }
+  else{
+    digitalWrite(LED, LOW);
+    delay(1000);
+  }
+}
+```
 
 ### 2.4 Complete Code
+
 ```c++
 #include <Servo.h> 
 
@@ -347,9 +451,6 @@ void loop() {
       delay(10);
     }
 }
-
-
 ```
-
 
 ## 3 Video demonstration
